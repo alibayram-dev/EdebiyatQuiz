@@ -1049,6 +1049,16 @@
     </div>
 
     <script>
+        document.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Hata oluştu: ${err.message}`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        });
+        
         const ENCRYPTED_DATA_HASH = '{"salt":"D92Taflm9hEbY1QPfTYXIw==","iv":"8MH0HBG0lAKZbK8t","ciphertext":"ksPSx3tDgccIbjYQ2B6WQgvLaW9S2mWU6Dh3mU5MTdc5/pZvmkfVL5OX7P07LRZzqjZN5rXDy4HIwvXXB0kFifXWV63YJ/VS"}';
         let API_KEY = "";
         const MODELS = ["llama-3.3-70b-versatile", "meta-llama/llama-4-scout-17b-16e-instruct", "qwen/qwen3-32b"];
