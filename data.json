@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "Soru": "Türk edebiyatında aruz ölçüsü kullanılan ilk eser hangisidir?",
+        "cevap": "Kutadgu Bilig.",
+        "unite": "islamiyet etkisinde gelişen türk edebiyatı",
+        "tema": "geçiş dönemi türk edebiyatı"
+    },
+    {
+        "Soru": "Kutadgu Bilig'in yazarı kimdir?",
+        "cevap": "Yusuf Has Hacip.",
+        "unite": "islamiyet etkisinde gelişen türk edebiyatı",
+        "tema": "geçiş dönemi türk edebiyatı"
+    },
+    {
+        "Soru": "Kutadgu Bilig hangi nazım biçimiyle yazılmıştır?",
+        "cevap": "Mesnevi.",
+        "unite": "islamiyet etkisinde gelişen türk edebiyatı",
+        "tema": "geçiş dönemi türk edebiyatı"
+    },
+    {
+        "Soru": "Yusuf Has Hacip'in kaleme aldığı Kutadgu Bilig hangi yüzyıla aittir?",
+        "cevap": "11. yüzyıl.",
+        "unite": "islamiyet etkisinde gelişen türk edebiyatı",
+        "tema": "geçiş dönemi türk edebiyatı"
+    }
+]
