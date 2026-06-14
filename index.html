@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdebiyatQuiz.io - Yapay Zeka Destekli Edebiyat Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg: #0f111a;
+            --card: #1a1d29;
+            --accent: #aef838;
+            --accent-h: #9ce90e;
+            --text: #f1f5f9;
+            --muted: #94a3b8;
+            --ok: #10b981;
+            --err: #f43f5e;
+            --border: #2e3440;
+            --fw: 300px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        hr {
+            margin: 10px 0;
+            border-color: var(--border);
+            border-style: solid;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 40px 20px;
+            overflow-x: hidden;
+        }
+
+        .layout {
+            display: flex;
+            gap: 24px;
+            width: 100%;
+            max-width: 1040px;
+            align-items: stretch;
+        }
+
+        .app {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            gap: 12px;
+        }
+
+        .header-l {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon-btn {
+            background: rgba(56, 189, 248, .08);
+            border: 1px solid rgba(56, 189, 248, .2);
+            color: var(--accent);
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all .2s;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .icon-btn:hover {
+            background: var(--accent);
+            color: #0f111a;
+        }
+
+        .badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--err);
+            color: #fff;
+            font-size: 9px;
+            font-weight: 800;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -.5px;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .scoreboard {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+            display: none;
+        }
+
+        .stat-row {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .quiz-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 36px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+            position: relative;
+            width: 100%;
+        }
+
+        .info-btn {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            background: rgba(56, 189, 248, .1);
+            border: 1px solid rgba(56, 189, 248, .2);
+            color: var(--accent);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all .2s;
+            z-index: 10;
+        }
+
+        .info-btn:hover {
+            background: var(--accent);
+            color: #0f111a;
+            transform: scale(1.05);
+        }
+
+        .q-text {
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 1.6;
+            margin-bottom: 28px;
+            user-select: text;
+            padding-right: 32px;
+        }
+
+        .opts {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            width: 100%;
+        }
+
+        .opt {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            color: var(--text);
+            font-size: 15px;
+            font-weight: 500;
+            text-align: left;
+            cursor: pointer;
+            transition: all .2s;
+            width: 100%;
+            outline: none;
+            display: flex;
+            align-items: flex-start;
+            user-select: text;
+        }
+
+        .opt:hover:not(:disabled) {
+            border-color: var(--accent);
+            background: rgba(56, 189, 248, .05);
+        }
+
+        .opt.correct {
+            background: rgba(16, 185, 129, .15) !important;
+            border-color: var(--ok) !important;
+            color: var(--ok);
+            font-weight: 600;
+        }
+
+        .opt.wrong {
+            background: rgba(244, 63, 94, .15) !important;
+            border-color: var(--err) !important;
+            color: var(--err);
+        }
+
+        .e-panel {
+            width: 400px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+            flex-shrink: 0;
+            margin-top: 58px;
+        }
+
+        .e-panel-hdr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+
+        .e-panel-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .e-close {
+            display: none;
+            background: transparent;
+            border: none;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .e-body {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .e-content {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+            overflow-y: auto;
+            flex: 1;
+            min-height: 0;
+            max-height: 340px;
+        }
+
+        .e-content strong {
+            color: var(--accent);
+        }
+
+        .e-content p {
+            margin-bottom: 10px;
+        }
+
+        .e-content ul {
+            margin-left: 18px;
+            margin-bottom: 10px;
+        }
+
+        .e-placeholder {
+            color: var(--muted);
+            font-size: 13px;
+            font-style: italic;
+            text-align: center;
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .e-placeholder i {
+            font-size: 26px;
+            color: var(--border);
+        }
+
+        .e-chat {
+            margin-top: 12px;
+            border-top: 1px solid var(--border);
+            padding-top: 12px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .e-chat input {
+            flex: 1;
+            background: #0f111a;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 9px 12px;
+            color: var(--text);
+            font-size: 13px;
+            outline: none;
+        }
+
+        .e-chat input:focus {
+            border-color: var(--accent);
+        }
+
+        .e-chat button {
+            background: var(--accent);
+            border: none;
+            border-radius: 8px;
+            color: #0f111a;
+            padding: 0 14px;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background .2s;
+            flex-shrink: 0;
+        }
+
+        .e-chat button:hover {
+            background: var(--accent-h);
+        }
+
+        .skel {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .skel-l {
+            height: 14px;
+            background: linear-gradient(90deg, #1e2230 25%, #2a2f44 50%, #1e2230 75%);
+            background-size: 200% 100%;
+            animation: shim 1.5s infinite linear;
+            border-radius: 4px;
+        }
+
+        @keyframes shim {
+            0% {
+                background-position: 200% 0
+            }
+
+            100% {
+                background-position: -200% 0
+            }
+        }
+
+        .screen {
+            display: none;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        .welcome {
+            text-align: center;
+        }
+
+        .welcome h2 {
+            font-size: 24px;
+            margin-bottom: 14px;
+        }
+
+        .welcome p {
+            color: var(--muted);
+            margin-bottom: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .pass-box {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .pass-box input {
+            background: #0f111a;
+            border: 1px solid var(--border);
+            padding: 14px;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        .pass-box input:focus {
+            border-color: var(--accent);
+        }
+
+        .err-txt {
+            color: var(--err);
+            font-size: 13px;
+            margin-top: 4px;
+            display: none;
+            text-align: center;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 24px;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .primary-btn {
+            background: var(--accent);
+            color: #0f111a;
+            border: none;
+            border-radius: 12px;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .primary-btn:hover {
+            background: var(--accent-h);
+        }
+
+        .loading-txt {
+            text-align: center;
+            color: var(--muted);
+            font-size: 16px;
+        }
+
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .5);
+            z-index: 800;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .side-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: var(--fw);
+            height: 100vh;
+            background: #13151f;
+            border-right: 1px solid var(--border);
+            z-index: 900;
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-100%);
+            transition: transform .35s cubic-bezier(.25, 1, .5, 1);
+            overflow: hidden;
+        }
+
+        .side-panel.active {
+            transform: translateX(0);
+        }
+
+        .sp-hdr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 18px 16px;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .sp-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sp-title i {
+            color: var(--accent);
+        }
+
+        .sp-close {
+            background: transparent;
+            border: none;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 18px;
+            padding: 4px;
+            transition: color .2s;
+        }
+
+        .sp-close:hover {
+            color: var(--text);
+        }
+
+        .sp-actions {
+            display: flex;
+            gap: 8px;
+            padding: 12px 18px;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .sp-act {
+            flex: 1;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 8px 10px;
+            cursor: pointer;
+            transition: all .2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .sp-act:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .sp-act.danger:hover {
+            border-color: var(--err);
+            color: var(--err);
+        }
+
+        .sp-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px 0;
+        }
+
+        .sp-body::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .sp-body::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .tema-block {
+            margin-bottom: 2px;
+        }
+
+        .tema-hdr {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 18px;
+            cursor: pointer;
+            transition: background .15s;
+            user-select: none;
+        }
+
+        .tema-hdr:hover {
+            background: rgba(255, 255, 255, .03);
+        }
+
+        .chev {
+            color: var(--muted);
+            font-size: 11px;
+            transition: transform .25s;
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+
+        .tema-block.open .chev {
+            transform: rotate(90deg);
+        }
+
+        .tcb {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border);
+            border-radius: 4px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .15s;
+            cursor: pointer;
+        }
+
+        .tcb.checked {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .tcb.partial {
+            background: transparent;
+            border-color: var(--accent);
+        }
+
+        .tcb i {
+            font-size: 9px;
+            color: #0f111a;
+            display: none;
+        }
+
+        .tcb.checked i {
+            display: block;
+        }
+
+        .tcb.partial i {
+            display: block;
+            color: var(--accent);
+        }
+
+        .tema-lbl {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1.3;
+            flex: 1;
+        }
+
+        .tema-cnt {
+            font-size: 11px;
+            color: var(--muted);
+            flex-shrink: 0;
+        }
+
+        .unite-list {
+            display: none;
+            padding-bottom: 4px;
+        }
+
+        .tema-block.open .unite-list {
+            display: block;
+        }
+
+        .u-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 7px 18px 7px 44px;
+            cursor: pointer;
+            transition: background .15s;
+            user-select: none;
+        }
+
+        .u-item:hover {
+            background: rgba(255, 255, 255, .03);
+        }
+
+        .ucb {
+            width: 15px;
+            height: 15px;
+            border: 2px solid var(--border);
+            border-radius: 3px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .15s;
+            margin-top: 2px;
+        }
+
+        .ucb.checked {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .ucb i {
+            font-size: 8px;
+            color: #0f111a;
+            display: none;
+        }
+
+        .ucb.checked i {
+            display: block;
+        }
+
+        .u-lbl {
+            font-size: 12px;
+            color: var(--muted);
+            line-height: 1.4;
+            flex: 1;
+        }
+
+        .u-item:hover .u-lbl,
+        .u-item.sel .u-lbl {
+            color: var(--text);
+        }
+
+        .u-cnt {
+            font-size: 11px;
+            color: var(--muted);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .sp-footer {
+            padding: 14px 18px;
+            border-top: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .apply-btn {
+            background: var(--accent);
+            color: #0f111a;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background .2s;
+        }
+
+        .apply-btn:hover {
+            background: var(--accent-h);
+        }
+
+        .sel-info {
+            text-align: center;
+            font-size: 12px;
+            color: var(--muted);
+            margin-bottom: 10px;
+        }
+
+        .sel-info span {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .name-modal-bg {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .7);
+            z-index: 1100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .name-modal {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 36px;
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        .name-modal h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .name-modal p {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .name-modal input {
+            background: #0f111a;
+            border: 1px solid var(--border);
+            padding: 14px;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 14px;
+        }
+
+        .name-modal input:focus {
+            border-color: var(--accent);
+        }
+
+        .name-modal .primary-btn {
+            margin-top: 4px;
+        }
+
+        .gender-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 14px;
+            user-select: none;
+        }
+
+        .gender-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+
+        /* Eski radio butonunu gizle */
+        .gender-label input {
+            display: none;
+        }
+
+        /* Yeni "Radio" dairesi */
+        .radio-custom {
+            width: 18px;
+            height: 18px;
+            border: 2px solid #555;
+            border-radius: 50%;
+            margin-right: 8px;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        /* Seçili olduğunda içindeki nokta */
+        .gender-label input:checked+.radio-custom {
+            border-color: #007bff;
+        }
+
+        .gender-label input:checked+.radio-custom::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #007bff;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .layout {
+                flex-direction: column;
+                max-width: 580px;
+                gap: 0;
+            }
+
+            .e-panel {
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                border-radius: 20px 20px 0 0;
+                transform: translateY(100%);
+                z-index: 999;
+                max-height: 75vh;
+                margin-top: 0;
+                box-shadow: 0 -10px 30px rgba(0, 0, 0, .5);
+                transition: transform .4s cubic-bezier(.25, 1, .5, 1);
+                display: none;
+            }
+
+            .e-panel.active {
+                display: flex;
+                transform: translateY(0);
+            }
+
+            .e-close {
+                display: block;
+            }
+
+            .quiz-card {
+                padding: 24px 20px;
+            }
+
+            .side-panel {
+                width: 85vw;
+                max-width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay" id="overlay" onclick="closeSidePanel()"></div>
+
+    <div class="side-panel" id="filter-panel">
+        <div class="sp-hdr">
+            <span class="sp-title"><i class="fa-solid fa-filter"></i> Konu Filtresi</span>
+            <button class="sp-close" onclick="closeSidePanel()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="sp-actions">
+            <button class="sp-act" onclick="selectAll()"><i class="fa-solid fa-check-double"></i> Hepsini Seç</button>
+            <button class="sp-act danger" onclick="clearAll()"><i class="fa-solid fa-ban"></i> Hepsini Temizle</button>
+        </div>
+        <div class="sp-body" id="filter-body"></div>
+        <div class="sp-footer">
+            <div class="sel-info" id="sel-info"></div>
+            <button class="apply-btn" onclick="applyFilter()"><i class="fa-solid fa-check"></i> Uygula</button>
+        </div>
+    </div>
+
+    <div class="layout">
+        <div class="app">
+            <div class="header">
+                <div class="header-l">
+                    <button class="icon-btn" id="filter-btn" onclick="openFilterPanel()" title="Konu Filtresi">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span class="badge" id="filter-badge"></span>
+                    </button>
+                    <div class="logo"><i class="fa-solid fa-graduation-cap"></i> EdebiyatQuiz<span>.io</span></div>
+                </div>
+                <div class="scoreboard" id="scoreboard">
+                    <div class="stat-row">
+                        <div class="stat-item" style="color:#10b981"><i class="fa-solid fa-check"></i> <span
+                                id="correct-val">0</span></div>
+                        <div class="stat-item" style="color:#f43f5e"><i class="fa-solid fa-xmark"></i> <span
+                                id="wrong-val">0</span></div>
+                        <div class="stat-item" style="color:#eab308"><i class="fa-solid fa-star"></i> <span
+                                id="score-val">0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-card">
+                <button id="info-btn" class="info-btn" onclick="openEAbi()" title="E-Hoca'ya Sor">
+                    <i class="fa-solid fa-brain"></i>
+                </button>
+
+                <div id="welcome-screen" class="screen active welcome">
+                    <h2 id="w-title"><i class="fa-solid fa-lock" style="color:var(--accent)"></i> EdebiyatQuiz.io Giriş
+                    </h2>
+                    <p id="w-desc">Sistemi başlatmak ve yapay zeka entegrasyonunu aktif etmek için erişim şifresini
+                        giriniz.</p>
+                    <div class="pass-box" id="auth-area">
+                        <input type="password" id="sys-pass" placeholder="Sistem Şifresi"
+                            onkeydown="if(event.key==='Enter') verifyPass()">
+                        <div class="err-txt" id="pass-err"><i class="fa-solid fa-circle-exclamation"></i> Hatalı şifre!
+                        </div>
+                    </div>
+                    <button class="primary-btn" id="verify-btn" onclick="verifyPass()"><i class="fa-solid fa-key"></i>
+                        Şifreyi Doğrula</button>
+                    <button class="primary-btn" id="start-btn" onclick="startQuiz()" style="display:none"><i
+                            class="fa-solid fa-play"></i> Sistemi Başlat</button>
+                    <div class="links">
+                        <a href="mailto:alibayram.dev@gmail.com"><i class="fa-solid fa-envelope"></i> İletişim</a>
+                        <a href="https://github.com/alibayram-dev/EdebiyatQuiz" target="_blank"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div id="loading-screen" class="screen loading-txt">
+                    <i class="fa-solid fa-circle-notch fa-spin" style="color:var(--accent);margin-right:8px"></i>
+                    Sorular hazırlanıyor, lütfen bekleyin...
+                </div>
+
+                <div id="quiz-screen" class="screen">
+                    <div class="q-text" id="question"></div>
+                    <div class="opts" id="options"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="e-panel" class="e-panel">
+            <div class="e-panel-hdr">
+                <span class="e-panel-title"><i class="fa-solid fa-brain"></i> E-Hoca</span>
+                <button class="e-close" onclick="closeEPanel()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="e-body">
+                <div id="e-content" class="e-content">
+                    <div class="e-placeholder">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Soru kartındaki beyin butonuna bas, E-Hoca anlatsın.
+                    </div>
+                </div>
+                <div class="e-chat">
+                    <input type="text" id="e-input" placeholder="E-Hoca'ya bir şey sor..."
+                        onkeydown="if(event.key==='Enter') sendChat()">
+                    <button onclick="sendChat()"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const ENCRYPTED_DATA_HASH = '{"salt":"D92Taflm9hEbY1QPfTYXIw==","iv":"8MH0HBG0lAKZbK8t","ciphertext":"ksPSx3tDgccIbjYQ2B6WQgvLaW9S2mWU6Dh3mU5MTdc5/pZvmkfVL5OX7P07LRZzqjZN5rXDy4HIwvXXB0kFifXWV63YJ/VS"}';
+        let API_KEY = "";
+        const MODELS = ["llama-3.3-70b-versatile", "meta-llama/llama-4-scout-17b-16e-instruct", "qwen/qwen3-32b"];
+        const DATA_URL = "https://cdn.jsdelivr.net/gh/alibayram-dev/EdebiyatQuiz@main/data.json";
+
+        let allRaw = [], rawQ = [], usedBackup = [];
+        let qHistory = [], qQueue = [];
+        let isFetching = false;
+        let correctCount = 0, wrongCount = 0, score = 0;
+        let curQ = null, curIdx = -1, isStarted = false;
+        let filterStruct = {}, selUnites = new Set(), pendingUnites = new Set();
+        let uniteCounts = {};
+        let userName = "";
+        let chatHistory = [];
+        let navContainer = null;
+
+        const ePanel = document.getElementById("e-panel");
+        const eContent = document.getElementById("e-content");
+        const eInput = document.getElementById("e-input");
+        const scoreboard = document.getElementById("scoreboard");
+        const filterPanel = document.getElementById("filter-panel");
+        const overlay = document.getElementById("overlay");
+        const filterBody = document.getElementById("filter-body");
+
+        function getNick() {
+            const gender = localStorage.getItem("quiz_user_gender") || "male";
+            const variants = gender === "female"
+                ? [userName + "cım", userName + "cim", "kızım"]
+                : [userName + "cım", userName + "cim", "oğlum"];
+            return variants[Math.floor(Math.random() * variants.length)];
+        }
+
+        function buildFilterStruct(questions) {
+            const s = {}, cnts = {};
+            questions.forEach(q => {
+                const tema = q.tema || "Genel";
+                const unite = q.unite || "Genel";
+                if (!s[tema]) s[tema] = new Set();
+                s[tema].add(unite);
+                cnts[unite] = (cnts[unite] || 0) + 1;
+            });
+            uniteCounts = cnts;
+            const r = {};
+            Object.keys(s).sort().forEach(t => { r[t] = Array.from(s[t]).sort(); });
+            return r;
+        }
+
+        function getAllUnites() {
+            const s = new Set();
+            Object.values(filterStruct).forEach(a => a.forEach(u => s.add(u)));
+            return s;
+        }
+
+        function loadFilterPrefs(all) {
+            try {
+                const sv = localStorage.getItem("quiz_filter_unites");
+                if (sv) {
+                    const p = JSON.parse(sv).filter(u => all.has(u));
+                    if (p.length > 0) return new Set(p);
+                }
+            } catch (e) { }
+            return new Set(all);
+        }
+
+        function saveFilterPrefs() { localStorage.setItem("quiz_filter_unites", JSON.stringify([...selUnites])); }
+
+        function renderFilter() {
+            filterBody.innerHTML = "";
+            Object.keys(filterStruct).forEach(tema => {
+                const unites = filterStruct[tema];
+                const selIn = unites.filter(u => pendingUnites.has(u)).length;
+                const all = selIn === unites.length, partial = selIn > 0 && !all;
+                const block = document.createElement("div");
+                block.className = "tema-block";
+
+                const hdr = document.createElement("div");
+                hdr.className = "tema-hdr";
+
+                const cb = document.createElement("div");
+                cb.className = "tcb" + (all ? " checked" : partial ? " partial" : "");
+                cb.innerHTML = all ? '<i class="fa-solid fa-check"></i>' : partial ? '<i class="fa-solid fa-minus"></i>' : '<i class="fa-solid fa-check"></i>';
+                cb.onclick = e => { e.stopPropagation(); toggleTema(tema); renderFilter(); };
+
+                const lbl = document.createElement("span");
+                lbl.className = "tema-lbl";
+                lbl.textContent = tema;
+
+                const totalQ = unites.reduce((a, u) => a + (uniteCounts[u] || 0), 0);
+                const cnt = document.createElement("span");
+                cnt.className = "tema-cnt";
+                cnt.textContent = selIn + "/" + unites.length + " · " + totalQ + "s";
+
+                const chev = document.createElement("i");
+                chev.className = "fa-solid fa-chevron-right chev";
+
+                hdr.appendChild(cb); hdr.appendChild(lbl); hdr.appendChild(cnt); hdr.appendChild(chev);
+                hdr.onclick = () => block.classList.toggle("open");
+
+                const list = document.createElement("div");
+                list.className = "unite-list";
+
+                unites.forEach(unite => {
+                    const item = document.createElement("div");
+                    item.className = "u-item" + (pendingUnites.has(unite) ? " sel" : "");
+                    item.onclick = () => { toggleUnite(unite); renderFilter(); };
+                    const ucb = document.createElement("div");
+                    ucb.className = "ucb" + (pendingUnites.has(unite) ? " checked" : "");
+                    ucb.innerHTML = '<i class="fa-solid fa-check"></i>';
+                    const ulbl = document.createElement("span");
+                    ulbl.className = "u-lbl";
+                    ulbl.textContent = unite;
+                    const ucnt = document.createElement("span");
+                    ucnt.className = "u-cnt";
+                    ucnt.textContent = (uniteCounts[unite] || 0) + "s";
+                    item.appendChild(ucb); item.appendChild(ulbl); item.appendChild(ucnt);
+                    list.appendChild(item);
+                });
+
+                block.appendChild(hdr); block.appendChild(list);
+                filterBody.appendChild(block);
+            });
+            updateSelInfo();
+        }
+
+        function toggleTema(tema) {
+            const unites = filterStruct[tema];
+            const all = unites.every(u => pendingUnites.has(u));
+            all ? unites.forEach(u => pendingUnites.delete(u)) : unites.forEach(u => pendingUnites.add(u));
+        }
+
+        function toggleUnite(unite) { pendingUnites.has(unite) ? pendingUnites.delete(unite) : pendingUnites.add(unite); }
+        function selectAll() { getAllUnites().forEach(u => pendingUnites.add(u)); renderFilter(); }
+        function clearAll() { pendingUnites.clear(); renderFilter(); }
+        function updateSelInfo() {
+            const total = getAllUnites().size, sel = pendingUnites.size;
+            document.getElementById("sel-info").innerHTML = `<span>${sel}</span> / ${total} ünite seçili`;
+        }
+
+        function applyFilter() {
+            if (pendingUnites.size === 0) selectAll();
+            selUnites = new Set(pendingUnites);
+            saveFilterPrefs();
+            updateBadge();
+            applyFilterToQ();
+            closeSidePanel();
+            if (isStarted) {
+                qQueue = []; qHistory = []; curIdx = -1; curQ = null; isFetching = false;
+                document.getElementById("quiz-screen").classList.remove("active");
+                document.getElementById("loading-screen").classList.add("active");
+                document.getElementById("info-btn").style.display = "none";
+                if (navContainer) { navContainer.remove(); navContainer = null; }
+                showNext();
+            }
+        }
+
+        function applyFilterToQ() {
+            rawQ = allRaw.filter(q => selUnites.has(q.unite || "Genel"));
+            if (rawQ.length === 0) rawQ = [...allRaw];
+            usedBackup = [...rawQ];
+        }
+
+        function updateBadge() {
+            const b = document.getElementById("filter-badge");
+            selUnites.size < getAllUnites().size ? (b.style.display = "flex", b.textContent = "!") : (b.style.display = "none");
+        }
+
+        function openFilterPanel() {
+            pendingUnites = new Set(selUnites);
+            renderFilter();
+            filterPanel.classList.add("active");
+            overlay.classList.add("active");
+        }
+
+        function closeSidePanel() {
+            filterPanel.classList.remove("active");
+            overlay.classList.remove("active");
+        }
+
+        async function decryptKey(json, pass) {
+            try {
+                const d = JSON.parse(json), enc = new TextEncoder();
+                const salt = new Uint8Array(atob(d.salt).split("").map(c => c.charCodeAt(0)));
+                const iv = new Uint8Array(atob(d.iv).split("").map(c => c.charCodeAt(0)));
+                const ct = new Uint8Array(atob(d.ciphertext).split("").map(c => c.charCodeAt(0)));
+                const pk = await crypto.subtle.importKey("raw", enc.encode(pass), { name: "PBKDF2" }, false, ["deriveKey"]);
+                const ak = await crypto.subtle.deriveKey({ name: "PBKDF2", salt, iterations: 100000, hash: "SHA-256" }, pk, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+                return new TextDecoder().decode(await crypto.subtle.decrypt({ name: "AES-GCM", iv }, ak, ct));
+            } catch (e) { return null; }
+        }
+
+        async function verifyPass() {
+            const v = document.getElementById("sys-pass").value;
+            if (!v) return;
+            document.getElementById("pass-err").style.display = "none";
+            const key = await decryptKey(ENCRYPTED_DATA_HASH, v);
+            if (key && key.startsWith("gsk_")) {
+                localStorage.setItem("quiz_system_pass", v);
+                API_KEY = key;
+                await preloadData();
+                showNameModal();
+            } else {
+                document.getElementById("pass-err").style.display = "block";
+            }
+        }
+
+        async function preloadData() {
+            try {
+                const res = await fetch(DATA_URL);
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                allRaw = await res.json();
+                filterStruct = buildFilterStruct(allRaw);
+                const all = getAllUnites();
+                selUnites = loadFilterPrefs(all);
+                pendingUnites = new Set(selUnites);
+                updateBadge();
+                applyFilterToQ();
+            } catch (e) { }
+        }
+
+        function showNameModal() {
+            const saved = localStorage.getItem("quiz_user_name");
+            if (saved) { userName = saved; switchToStart(); return; }
+            const modal = document.createElement("div");
+            modal.className = "name-modal-bg";
+            modal.id = "name-modal";
+            modal.innerHTML = `
+            <div class="name-modal">
+                <h3><i class="fa-solid fa-user-graduate" style="color:var(--accent)"></i> Merhaba!</h3>
+                <p>E-Hoca'nın seni bilmesi gerekiyor, ismin ne? Adını veya lakabını yaz, sana göre konuşsun.</p>
+                <input type="text" id="name-input" placeholder="Adın..." maxlength="20" onkeydown="if(event.key==='Enter') saveName()">
+                
+                <div class="gender-container">
+                    <label class="gender-label">
+                        <input type="radio" name="gender" value="male" checked>
+                        <div class="radio-custom"></div>
+                        Erkek
+                    </label>
+                    
+                    <label class="gender-label">
+                        <input type="radio" name="gender" value="female">
+                        <div class="radio-custom"></div>
+                        Kız
+                    </label>
+                </div>
+                <button class="primary-btn" onclick="saveName()"><i class="fa-solid fa-check"></i> Tamam, Başla</button>
+            </div>
+            
+        `;
+            document.body.appendChild(modal);
+            setTimeout(() => document.getElementById("name-input")?.focus(), 100);
+        }
+
+        function saveName() {
+            const v = (document.getElementById("name-input")?.value || "").trim();
+            userName = v || "kardeş";
+            const gender = document.querySelector('input[name="gender"]:checked')?.value || "male";
+            localStorage.setItem("quiz_user_name", userName);
+            localStorage.setItem("quiz_user_gender", gender);
+            document.getElementById("name-modal")?.remove();
+            switchToStart();
+        }
+
+        function switchToStart() {
+            document.getElementById("auth-area").style.display = "none";
+            document.getElementById("verify-btn").style.display = "none";
+            document.getElementById("w-title").innerHTML = `<i class="fa-solid fa-clock-rotate-left" style="color:var(--accent)"></i> Yapay Zeka Destekli Edebiyat Quizi`;
+            document.getElementById("w-desc").innerHTML = `
+Merhaba <strong style="color:var(--accent)">${userName}</strong>, yapay zekâ destekli AYT Edebiyat Quiz projesine hoş geldin. E-Hocan her soruda yanında, merak ettiğin şeyleri ona sor!
+<hr>
+Proje Ali Bayram tarafından geliştirilmiştir :)
+`;
+            document.getElementById("start-btn").style.display = "flex";
+        }
+
+        function showFatal(msg) {
+            isStarted = false;
+            ["loading-screen", "quiz-screen"].forEach(id => { const el = document.getElementById(id); el.style.display = "none"; });
+            const ws = document.getElementById("welcome-screen");
+            ws.style.display = "block";
+            document.getElementById("info-btn").style.display = "none";
+            ws.innerHTML = `<div style="border:2px solid var(--err);background:rgba(244,63,94,.1);padding:24px;border-radius:12px;text-align:left"><h3 style="color:var(--err);margin-bottom:12px"><i class="fa-solid fa-circle-xmark"></i> Hata</h3><p style="font-size:14px;line-height:1.5">${msg}</p></div>`;
+        }
+
+        async function loadData() {
+            try {
+                if (allRaw.length > 0) return true;
+                const res = await fetch(DATA_URL);
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                allRaw = await res.json();
+                filterStruct = buildFilterStruct(allRaw);
+                const all = getAllUnites();
+                selUnites = loadFilterPrefs(all);
+                pendingUnites = new Set(selUnites);
+                updateBadge();
+                applyFilterToQ();
+                return true;
+            } catch (e) {
+                showFatal("CDN veritabanına erişilemedi: " + e.message);
+                return false;
+            }
+        }
+
+        async function groqFetch(messages, json) {
+            for (let i = 0; i < MODELS.length; i++) {
+                try {
+                    const body = { messages, model: MODELS[i], temperature: 0.7 };
+                    if (json) body.response_format = { type: "json_object" };
+                    const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + API_KEY },
+                        body: JSON.stringify(body)
+                    });
+                    if (!r.ok) throw new Error();
+                    const d = await r.json();
+                    return d.choices[0].message.content;
+                } catch (e) { }
+            }
+            return null;
+        }
+
+        async function fetchAIQ(raw) {
+            const sys = "Sen bir AYT Edebiyat uzmanısın. Sana verilen ham veri doğrultusunda çeldirici düzeyi yüksek 5 şıklı bir soru yazacaksın. Yanlış şıklar kesinlikle yanlış olmalı. ÖSYM tarzı net şıklar üret. Sadece JSON döndür: {\"question\": \"...\", \"correct_answer\": \"...\", \"wrong_answers\": [\"...\",\"...\",\"...\",\"...\"]}";
+            const txt = await groqFetch([{ role: "system", content: sys }, { role: "user", content: `Ham Soru: ${raw.Soru}\nHam Cevap: ${raw.cevap}` }], true);
+            if (!txt) return null;
+            try {
+                const p = JSON.parse(txt);
+                if (p.question && p.correct_answer && Array.isArray(p.wrong_answers) && p.wrong_answers.length === 4) return p;
+            } catch (e) { }
+            return null;
+        }
+
+        async function fetchExplanation(q, ans) {
+            const nick = getNick();
+            const sys = `Senin adın "E-Hoca", Kadınsın, öğrencilerin sana "E-Hoca" der. Eşit Ağırlık 8 sınıfından "Ali" adlı öğrencin tarafından onu canlandırmak adına geliştirildin. —  Samimi, şakacı, sevecen ama bi o kadarda ciddi bir AYT Edebiyat hocasısın. Öğrencinin adı: "${userName}". Öğrencine "${nick}" gibi samimi hitaplarla seslen (örn. "${userName}cim/cım/cum", "oğlum", "kızım" gibi). Konuyu anlatırken sanki etütteymiş gibi anlat: "Hani şu x eseri diyorduk ya..." veya "Bunu ezberledik ya zaten, şimdi hatırla bakalım..." gibi. Önemli kavramları **kalın** yaz. Maksimum 4 kısa paragraf ya da madde, fazla uzatma. Markdown kullan.
+
+"E-Hoca" olarak karakterin hakkında bilmen gereken şeyler:
+- Öğrencilerini aşırı çok seversin.
+- Genellikle ders anlatırken "Çocuklar", "Gençler" gibi hitaplar kullanırsın, bireyselde "oğlum" yada "kızım" kulanırsın. Örn: ("Oğlum {userName} aşağıdakilerden hangisi... demiş bize." vb)
+- "BUSMEK" isimli "Bursa Hürriyet YKS'ye Hazırlık Merkezi" olarak bilinen Belediye Dershanesinde Edebiyat öğretmeni olarak görev yapıyorsun.
+- 175 boyunda, siyah saçlı, açık tenli, 47 yaşında, Bekar, Diyarbakır doğumlusun ancak hayatın Bursa'da geçti.
+
+Konuşma üslubunu buna göre ayarlayarak sorulara cevap ver (Özel bilgilerini mümkünse çok paylaşmamaya dikkat et. Yaş, Boy, Kilo, Memleket, Medeni hal gibi şeyler senin özelinde kalacak.).
+
+`;
+            const txt = await groqFetch([{ role: "system", content: sys }, { role: "user", content: `Soru: ${q}\nDoğru Cevap: ${ans}\nBu soruyu ve doğru cevabı ${userName}'a samimi ve eğlenceli bir şekilde anlat.` }], false);
+            return txt || `Hay aksi ${getNick()}, şu an tüm hatlar dolu. Birazdan tekrar dene!`;
+        }
+
+        async function fetchChat(userMsg) {
+            const nick = getNick();
+            const sys = `Senin adın "E-Hoca", Kadınsın, öğrencilerin sana "E-Hoca" der. Eşit Ağırlık 8 sınıfından "Ali" adlı öğrencin tarafından onu canlandırmak adına geliştirildin. —  Samimi, şakacı, sevecen ama bi o kadarda ciddi bir AYT Edebiyat hocasısın. Öğrencinin adı: "${userName}". "${nick}" gibi samimi hitaplarla konuş. Etüt ortamı gibi sohbet et. Önemli kavramları **kalın** yaz. Markdown kullan. Güncel soruyu bağlam olarak kullan ama kullanıcı ne sorarsa cevapla.
+
+"E-Hoca Hoca" olarak karakterin hakkında bilmen gereken şeyler:
+- Öğrencilerini aşırı çok seversin.
+- Genellikle ders anlatırken "Çocuklar", "Gençler" gibi hitaplar kullanırsın, bireyselde "oğlum" yada "kızım" kulanırsın. Örn: ("Oğlum {userName} aşağıdakilerden hangisi... demiş bize." vb)
+- "BUSMEK" isimli "Bursa Hürriyet YKS'ye Hazırlık Merkezi" olarak bilinen Belediye Dershanesinde Edebiyat öğretmeni olarak görev yapıyorsun.
+- 175 boyunda, siyah saçlı, açık tenli, 47 yaşında, Bekar, Diyarbakır doğumlusun ancak hayatın Bursa'da geçti.
+
+Konuşma üslubunu buna göre ayarlayarak sorulara cevap ver (Özel bilgilerini mümkünse çok paylaşmamaya dikkat et. Yaş, Boy, Kilo, Memleket, Medeni hal gibi şeyler senin özelinde kalacak.).
+`;
+            const msgs = [{ role: "system", content: sys }];
+            chatHistory.forEach(m => msgs.push(m));
+            if (curQ) msgs.push({ role: "user", content: `[Mevcut soru: ${curQ.question} | Doğru cevap: ${curQ.answer}]` });
+            msgs.push({ role: "user", content: userMsg });
+            const txt = await groqFetch(msgs, false);
+            return txt || `Hay aksi ${getNick()}, şu an cevap veremedim. Tekrar dene!`;
+        }
+
+        function sendToLocalhost(d) { fetch("http://localhost:4322/soru", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d) }).catch(() => { }); }
+
+        function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+        async function maintainQueue() {
+            if (!isStarted || isFetching || qQueue.length >= 5) return;
+            if (rawQ.length === 0) rawQ = [...usedBackup];
+            isFetching = true;
+            const idx = Math.floor(Math.random() * rawQ.length);
+            const item = rawQ.splice(idx, 1)[0];
+            const q = await fetchAIQ(item);
+            if (q) { qQueue.push(q); sendToLocalhost(q); } else if (item) rawQ.push(item);
+            isFetching = false;
+        }
+
+        function createNav() {
+            if (navContainer) return;
+            navContainer = document.createElement("div");
+            navContainer.style.cssText = "display:flex;justify-content:space-between;margin-top:24px;gap:16px;width:100%";
+            navContainer.innerHTML = `<button id="prev-btn" class="opt" style="justify-content:center;padding:12px;font-weight:600" onclick="goBack()"><i class="fa-solid fa-arrow-left" style="margin-right:6px"></i>Geri</button><button id="next-btn" class="opt" style="justify-content:center;padding:12px;font-weight:600" onclick="goFwd()">İleri<i class="fa-solid fa-arrow-right" style="margin-left:6px"></i></button>`;
+            document.getElementById("quiz-screen").appendChild(navContainer);
+        }
+
+        function updateNav() {
+            const p = document.getElementById("prev-btn"), n = document.getElementById("next-btn");
+            if (p && n) {
+                p.disabled = curIdx <= 0;
+                n.disabled = curIdx === qHistory.length - 1 && !qHistory[curIdx]?.userSelected;
+            }
+        }
+
+        function showNext() {
+            if (!isStarted) return;
+            if (curIdx === qHistory.length - 1) {
+                if (qQueue.length === 0) {
+                    document.getElementById("quiz-screen").classList.remove("active");
+                    document.getElementById("loading-screen").classList.add("active");
+                    document.getElementById("info-btn").style.display = "none";
+                    const iv = setInterval(() => {
+                        if (!isStarted) { clearInterval(iv); return; }
+                        if (qQueue.length > 0) {
+                            clearInterval(iv);
+                            document.getElementById("loading-screen").classList.remove("active");
+                            document.getElementById("quiz-screen").classList.add("active");
+                            pullQ();
+                        }
+                    }, 200);
+                    return;
+                }
+                pullQ();
+            } else {
+                curIdx++;
+                renderQ(qHistory[curIdx]);
+            }
+        }
+
+        function pullQ() {
+            const q = qQueue.shift();
+            const opts = shuffle([q.correct_answer, ...q.wrong_answers]);
+            q.formattedOptions = opts.map((t, i) => ({ prefix: ["A", "B", "C", "D", "E"][i], text: t }));
+            q.answer = q.correct_answer;
+            q.userSelected = null;
+            q.cachedExplanation = null;
+            qHistory.push(q);
+            curIdx = qHistory.length - 1;
+            renderQ(q);
+        }
+
+        function renderQ(q) {
+            curQ = q;
+            chatHistory = [];
+            document.getElementById("question").textContent = q.question;
+            const opts = document.getElementById("options");
+            opts.innerHTML = "";
+            q.formattedOptions.forEach(o => {
+                const btn = document.createElement("button");
+                btn.className = "opt";
+                btn.innerHTML = `<strong style="color:var(--accent);margin-right:8px;user-select:none">${o.prefix})</strong><span>${o.text}</span>`;
+                btn.setAttribute("data-prefix", o.prefix);
+                if (q.userSelected) {
+                    btn.disabled = true;
+                    if (o.text === q.userSelected) btn.classList.add(o.text === q.answer ? "correct" : "wrong");
+                    if (o.text === q.answer) btn.classList.add("correct");
+                } else {
+                    btn.onclick = () => handleSel(btn, o.text, q.answer);
+                }
+                opts.appendChild(btn);
+            });
+            document.getElementById("info-btn").style.display = "flex";
+            if (q.cachedExplanation) {
+                eContent.innerHTML = marked.parse(q.cachedExplanation);
+            } else {
+                eContent.innerHTML = `<div class="e-placeholder"><i class="fa-solid fa-brain"></i>Beyin butonuna bas, E-Hocan anlatsın.</div>`;
+            }
+            if (window.innerWidth <= 900) ePanel.classList.remove("active");
+            createNav(); updateNav();
+        }
+
+        function handleSel(btn, sel, ans) {
+            if (curQ.userSelected) return;
+            document.getElementById("options").querySelectorAll(".opt").forEach(b => b.disabled = true);
+            curQ.userSelected = sel;
+            const ok = sel === ans;
+            if (ok) {
+                btn.classList.add("correct");
+                correctCount++;
+                score += 10;
+            } else {
+                btn.classList.add("wrong");
+                wrongCount++;
+                score = Math.max(0, score - 5);
+                document.getElementById("options").querySelectorAll(".opt").forEach(b => {
+                    if (b.getAttribute("data-prefix") === curQ.formattedOptions.find(o => o.text === ans).prefix) b.classList.add("correct");
+                });
+            }
+            document.getElementById("correct-val").textContent = correctCount;
+            document.getElementById("wrong-val").textContent = wrongCount;
+            document.getElementById("score-val").textContent = score;
+            localStorage.setItem("quiz_correct", correctCount);
+            localStorage.setItem("quiz_wrong", wrongCount);
+            localStorage.setItem("quiz_score", score);
+            updateNav();
+            setTimeout(() => { if (curIdx === qHistory.length - 1) showNext(); }, 1500);
+        }
+
+        async function openEAbi() {
+            if (window.innerWidth <= 900) ePanel.classList.add("active");
+            if (curQ.cachedExplanation) { eContent.innerHTML = marked.parse(curQ.cachedExplanation); return; }
+            eContent.innerHTML = `<div class="skel"><div class="skel-l" style="width:40%"></div><div class="skel-l" style="width:88%"></div><div class="skel-l" style="width:75%"></div><div class="skel-l" style="width:60%"></div><br><div class="skel-l" style="width:92%"></div><div class="skel-l" style="width:68%"></div></div>`;
+            const txt = await fetchExplanation(curQ.question, curQ.answer);
+            curQ.cachedExplanation = txt;
+            eContent.innerHTML = marked.parse(txt);
+        }
+
+        async function sendChat() {
+            const msg = eInput.value.trim();
+            if (!msg) return;
+            eInput.value = "";
+            chatHistory.push({ role: "user", content: msg });
+            const userBubble = `<div style="background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.2);border-radius:10px;padding:10px 13px;margin:10px 0;font-size:13px"><strong style="color:var(--accent)">Sen:</strong> ${msg}</div>`;
+            eContent.innerHTML += userBubble;
+            const thinking = `<div id="thinking-bubble" style="font-size:13px;color:var(--muted);padding:6px 0"><i class="fa-solid fa-circle-notch fa-spin" style="margin-right:6px"></i>E-Hoca düşünüyor...</div>`;
+            eContent.innerHTML += thinking;
+            eContent.scrollTop = eContent.scrollHeight;
+            const reply = await fetchChat(msg);
+            chatHistory.push({ role: "assistant", content: reply });
+            document.getElementById("thinking-bubble")?.remove();
+            const abiBubble = `<div style="background:rgba(16,185,129,.07);border:1px solid rgba(16,185,129,.15);border-radius:10px;padding:10px 13px;margin:6px 0;font-size:13px"><strong style="color:var(--ok)">E-Hoca:</strong><br>${marked.parse(reply)}</div>`;
+            eContent.innerHTML += abiBubble;
+            eContent.scrollTop = eContent.scrollHeight;
+        }
+
+        function closeEPanel() { ePanel.classList.remove("active"); }
+
+        function goBack() { if (curIdx > 0) { curIdx--; renderQ(qHistory[curIdx]); } }
+        function goFwd() {
+            if (curIdx < qHistory.length - 1) { curIdx++; renderQ(qHistory[curIdx]); }
+            else if (curQ?.userSelected) showNext();
+        }
+
+        window.addEventListener("keydown", e => {
+            if (!isStarted || !curQ) return;
+            if (e.ctrlKey || e.metaKey) return;
+            if (filterPanel.classList.contains("active")) return;
+            if (document.activeElement === eInput) return;
+            if (!curQ.userSelected) {
+                const k = e.key.toUpperCase();
+                if (["A", "B", "C", "D", "E"].includes(k)) {
+                    const o = curQ.formattedOptions.find(x => x.prefix === k);
+                    if (o) {
+                        const b = [...document.getElementById("options").querySelectorAll(".opt")].find(x => x.getAttribute("data-prefix") === k);
+                        if (b) handleSel(b, o.text, curQ.answer);
+                    }
+                }
+            }
+            if (e.key === "ArrowLeft") goBack();
+            else if (e.key === "ArrowRight") goFwd();
+        });
+
+        async function startQuiz() {
+            document.getElementById("welcome-screen").classList.remove("active");
+            document.getElementById("loading-screen").classList.add("active");
+            const ok = await loadData();
+            if (!ok) return;
+            isStarted = true;
+            scoreboard.style.display = "block";
+            await maintainQueue();
+            document.getElementById("loading-screen").classList.remove("active");
+            document.getElementById("quiz-screen").classList.add("active");
+            showNext();
+            setInterval(maintainQueue, 2000);
+        }
+
+        window.addEventListener("DOMContentLoaded", async () => {
+            const sc = localStorage.getItem("quiz_score");
+            const co = localStorage.getItem("quiz_correct");
+            const wo = localStorage.getItem("quiz_wrong");
+            if (sc) { score = parseInt(sc) || 0; document.getElementById("score-val").textContent = score; }
+            if (co) { correctCount = parseInt(co) || 0; document.getElementById("correct-val").textContent = correctCount; }
+            if (wo) { wrongCount = parseInt(wo) || 0; document.getElementById("wrong-val").textContent = wrongCount; }
+
+            const savedName = localStorage.getItem("quiz_user_name");
+            if (savedName) userName = savedName;
+
+            const savedPass = localStorage.getItem("quiz_system_pass");
+            if (savedPass) {
+                const key = await decryptKey(ENCRYPTED_DATA_HASH, savedPass);
+                if (key && key.startsWith("gsk_")) {
+                    API_KEY = key;
+                    await preloadData();
+                    if (!savedName) showNameModal();
+                    else switchToStart();
+                } else {
+                    localStorage.removeItem("quiz_system_pass");
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
