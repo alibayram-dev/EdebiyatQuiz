@@ -22,5 +22,2122 @@
         "cevap": "11. yüzyıl.",
         "unite": "islamiyet etkisinde gelişen türk edebiyatı",
         "tema": "geçiş dönemi türk edebiyatı"
-    }
+    },
+    {
+        "Soru": "Mecaz-ı mürsel söz sanatının diğer adı nedir?",
+        "cevap": "Ad aktarması.",
+        "unite": "şiir",
+        "tema": "edebi sanatlar"
+    },
+    {
+        "Soru": "Bir sözcüğün benzetme amacı olmadan başka bir sözcük yerine kullanılmasına ne ad verilir?",
+        "cevap": "Mecaz-ı mürsel.",
+        "unite": "şiir",
+        "tema": "edebi sanatlar"
+    },
+    {
+        "Soru": "Mecaz-ı mürsel sanatında sözcükler arası ilişkide hangi amacın olmaması şarttır?",
+        "cevap": "Benzetme amacı.",
+        "unite": "şiir",
+        "tema": "edebi sanatlar"
+    },
+    
+    {
+        "Soru": "Altay-Yakut dönemine ait olan İslamiyet öncesi Türk destanı hangisidir?",
+        "cevap": "Yaratılış Destanı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Yaratılış Destanı hangi Türk topluluğuna veya dönemine aittir?",
+        "cevap": "Altay-Yakut.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Saka (İskit) dönemine ait olan İslamiyet öncesi Türk destanları nelerdir?",
+        "cevap": "Şu ve Alp Er Tunga.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Alp Er Tunga Destanı hangi Türk devletine veya topluluğuna aittir?",
+        "cevap": "Saka (İskit).",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Şu Destanı hangi döneme ait bir İslamiyet öncesi Türk destanıdır?",
+        "cevap": "Saka (İskit) dönemi.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Hun-Oğuz dönemine ait olan ve hükümdarların hayatını veya mücadelelerini anlatan destanlar hangileridir?",
+        "cevap": "Oğuz Kağan ve Atilla destanları.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Oğuz Kağan Destanı hangi döneme ait bir Türk destanıdır?",
+        "cevap": "Hun-Oğuz dönemi.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Atilla Destanı hangi İslamiyet öncesi Türk topluluğunun veya döneminin ürünüdür?",
+        "cevap": "Hun-Oğuz.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Göktürk devletine ait olan İslamiyet öncesi Türk destanları hangileridir?",
+        "cevap": "Bozkurt ve Ergenekon.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Ergenekon Destanı hangi Türk devletine ait bir sözlü edebiyat ürünüdür?",
+        "cevap": "Göktürk.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Bozkurt Destanı hangi İslamiyet öncesi Türk devletine aittir?",
+        "cevap": "Göktürk.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Uygur dönemine ait olan ve Türklerin çoğalmasını veya göçlerini konu alan İslamiyet öncesi destanlar hangileridir?",
+        "cevap": "Türeyiş ve Göç.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Türeyiş Destanı hangi Türk devletine veya dönemine aittir?",
+        "cevap": "Uygur.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Göç Destanı hangi İslamiyet öncesi Türk devletinin kültürüne aittir?",
+        "cevap": "Uygur.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet öncesi türk destanları"
+    },
+    {
+        "Soru": "Kırgız Türklerine ait olan ve dünyanın en uzun destanlarından biri olarak bilinen İslamiyet sonrası destan hangisidir?",
+        "cevap": "Manas Destani.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Manas Destanı hangi Türk topluluğuna aittir?",
+        "cevap": "Kırgız.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Türk-Moğol kültür dairesine ait olan İslamiyet sonrası destanın adı nedir?",
+        "cevap": "Cengizhan Destanı (Cengizname).",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Cengizname olarak da adlandırılan destan hangi topluluğa veya döneme aittir?",
+        "cevap": "Türk-Moğol.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Altınordu dönemine ait olan İslamiyet sonrası Türk destanı hangisidir?",
+        "cevap": "Edige Destanı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Edige Destanı hangi Türk-İslam devletinin veya topluluğunun dönemine aittir?",
+        "cevap": "Altınordu.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Karahanlı dönemine ait olan, ilk Türk-İslam hükümdarının din uğruna mücadelelerini anlatan destan hangisidir?",
+        "cevap": "Satuk Buğra Han Destanı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Satuk Buğra Han Destanı hangi Türk devletinin dönemine ait bir İslamiyet sonrası üründür?",
+        "cevap": "Karahanlı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Anadolu Türkleri arasında oluşmuş, Battalname olarak da bilinen İslamiyet sonrası destan hangisidir?",
+        "cevap": "Seyyid Battal Gazi Destanı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Seyyid Battal Gazi Destanı (Battalname) hangi coğrafyadaki Türk edebiyatı ürünüdür?",
+        "cevap": "Anadolu Türkleri.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Anadolu sahasında oluşan ve Danişmendname adıyla da anılan İslamiyet sonrası Türk destanı hangisidir?",
+        "cevap": "Danişmend Gazi Destanı.",
+        "unite": "destan dönemi türk edebiyatı",
+        "tema": "islamiyet sonrası türk destanları"
+    },
+    {
+        "Soru": "Edebiyatımızdaki geleneksel hikâyeler genel olarak kaç ana kaynaktan beslenir?",
+        "cevap": "Üç.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Türk edebiyatı kaynaklı olan geleneksel hikâyeler hangileridir?",
+        "cevap": "Emrah ile Selvihan, Kerem ile Aslı, Aşık Garip.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Emrah ile Selvihan hikâyesi hangi edebiyatın kaynaklık ettiği ürünler arasında yer alır?",
+        "cevap": "Türk edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Kerem ile Aslı hikâyesinin kökeni hangi edebiyata dayanmaktadır?",
+        "cevap": "Türk edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Aşık Garip hikâyesi hangi kaynağın beslediği ürünlerdendir?",
+        "cevap": "Türk edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "İran-Hint edebiyatı kaynaklı olan ve edebiyatımızda sıkça işlenen hikâyeler hangileridir?",
+        "cevap": "Ferhat ile Şirin, Kelile ve Dimne.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Ferhat ile Şirin hikâyesi köken olarak hangi edebiyat çevresine aittir?",
+        "cevap": "İran-Hint edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Kelile ve Dimne adlı eser hangi kaynaklı hikâyeler arasında değerlendirilir?",
+        "cevap": "İran-Hint edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Arap edebiyatından beslenen ve Türk edebiyatında da yer edinen hikâyeler hangileridir?",
+        "cevap": "Leyla ile Mecnun, Yusuf ile Züleyha.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Leyla ile Mecnun hikâyesinin kökeni hangi edebiyata dayanır?",
+        "cevap": "Arap edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Yusuf ile Züleyha hikâyesi edebiyatımızdaki hikâyeleri besleyen hangi kaynaktan gelmektedir?",
+        "cevap": "Arap edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Edebiyatımızdaki hikâyelerin beslendiği üç temel kaynak genel olarak nasıl sınıflandırılır?",
+        "cevap": "Türk edebiyatı, İran-Hint edebiyatı ve Arap edebiyatı.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Arap edebiyatı kaynaklı Yusuf ile Züleyha dışındaki diğer popüler hikâye hangisidir?",
+        "cevap": "Leyla ile Mecnun.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "İran-Hint kaynaklı Kelile ve Dimne dışındaki diğer tanınmış hikâye hangisidir?",
+        "cevap": "Ferhat ile Şirin.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Türk edebiyatı kökenli Kerem ile Aslı ve Aşık Garip dışındaki diğer örnek nedir?",
+        "cevap": "Emrah ile Selvihan.",
+        "unite": "hikaye",
+        "tema": "halk hikayeleri"
+    },
+    {
+        "Soru": "Masalcının dinleyicileri masal havasına sokmak amacıyla tekerlemeler söylediği bölüm hangisidir?",
+        "cevap": "Döşeme bölümü.",
+        "unite": "masal",
+        "tema": "masalın yapı unsurları ve bölümleri"
+    },
+    {
+        "Soru": "Masalın döşeme bölümü hangi edebi unsurdan oluşur?",
+        "cevap": "Tekerlemelerden.",
+        "unite": "masal",
+        "tema": "masalın yapı unsurları ve bölümleri"
+    },
+    {
+        "Soru": "Kendi içinde serim, düğüm ve çözüm bölümlerinden oluşan masal bölümü hangisidir?",
+        "cevap": "Olay bölümü.",
+        "unite": "masal",
+        "tema": "masalın yapı unsurları ve bölümleri"
+    },
+    {
+        "Soru": "Masalın olay bölümü hangi alt unsurlardan meydana gelir?",
+        "cevap": "Serim, düğüm, çözüm.",
+        "unite": "masal",
+        "tema": "masalın yapı unsurları ve bölümleri"
+    },
+    {
+        "Soru": "Masalların mutluluk dileyen bir tekerlemeyle sonlandırıldığı bölüm hangisidir?",
+        "cevap": "Dilek bölümü.",
+        "unite": "masal",
+        "tema": "masalın yapı unsurları ve bölümleri"
+    },
+    
+    {
+        "Soru": "Karagöz oyununun halkın ortak malı olması onun hangi özelliğini gösterir?",
+        "cevap": "Anonim olmasını.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununun önceden hazırlanmış yazılı bir metne dayanmadan oynanma şekline ne ad verilir?",
+        "cevap": "Doğaçlama (tuluat).",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda gölgeleri perdeye düşüren oynatıcıya ne ad verilir?",
+        "cevap": "Hayalbaz.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Tek sanatçının yeteneğine bağlı bir oyun olan Karagöz'de, karagözcünün yardımcısına ne ad verilir?",
+        "cevap": "Çırak.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda şarkı söyleyen yardımcı kişiye ne ad verilir?",
+        "cevap": "Yardak.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda def çalan yardımcı kişiye ne ad verilir?",
+        "cevap": "Dayrezen.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununun giriş bölümünün adı nedir?",
+        "cevap": "Mukaddime.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununun mukaddime bölümünde çalınan düdüğe ne ad verilir?",
+        "cevap": "Nareke.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Mukaddime bölümünde nareke çalınırken perdede beliren ev, ağaç gibi tasvirlere ne ad verilir?",
+        "cevap": "Göstermelik.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda perdeye müzik eşliğinde semai okuyarak ilk gelen karakter kimdir?",
+        "cevap": "Hacivat.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Hacivat'ın semai bittikten sonra 'Off... Hay Hak!' diyerek okuduğu şiire ne ad verilir?",
+        "cevap": "Perde gazeli.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz ile Hacivat'ın karşılıklı konuştuğu, söyleşme bölümüne ne ad verilir?",
+        "cevap": "Muhavere.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununun asıl hikâyesinin anlatıldığı ve diğer kişilerin de sahneye çıktığı bölüm hangisidir?",
+        "cevap": "Fasıl.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz'ün Hacivat'a tokat attığı ve oyunun sonlandırıldığı bölüm hangisidir?",
+        "cevap": "Bitiş.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Bitiş bölümünde Hacivat'ın perdeden çekilirken söylediği kalıplaşmış söz nedir?",
+        "cevap": "Yıktın perdeyi eyledin viran, varayım sahibine haber vereyim heman!",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz'ün oyunu kapatırken seyirciden kusurlar için af dilediği kalıplaşmış söz nedir?",
+        "cevap": "Sürçü lisan ettikse affola!",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Gölge oyununda içi dışı bir, öğrenim görmemiş, cahil halk tipini temsil eden karakter hangisidir?",
+        "cevap": "Karagöz.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Gölge oyununda biraz öğrenim görmüş ve gösteriş meraklısı olan tip hangisidir?",
+        "cevap": "Hacivat.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda kadın kılığına giren veya kadın karakterleri karşılayan tipe ne ad verilir?",
+        "cevap": "Zenne.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Sırtında baltası olan, kaba saba bir tip olarak tasvir edilen Karagöz oyunu karakteri kimdir?",
+        "cevap": "Himmet.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyunundaki kabadayı tipinin adı nedir?",
+        "cevap": "Tuzsuz Deli Bekir.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Oyunda cüce ve aptal özellikleri barındıran tip hangisidir?",
+        "cevap": "Beberuhi.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Gölge oyununda zengin tüccar rolündeki tip hangisidir?",
+        "cevap": "Acem.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Genç ve mirasyedi özellikleriyle öne çıkan Karagöz oyunu tipi hangisidir?",
+        "cevap": "Çelebi.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Karagöz oyununda sarhoş tipini canlandıran karakter kimdir?",
+        "cevap": "Matiz.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Gölge oyununun perdeden meydana inmiş şekli sayılan geleneksel Türk tiyatrosu ürünü hangisidir?",
+        "cevap": "Orta oyunu.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununun oynandığı alana ne ad verilir?",
+        "cevap": "Palanga.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununda dekor olarak kullanılan, evi temsil eden iki üç kanatlı kafes biçimindeki paravana ne ad verilir?",
+        "cevap": "Yeni dünya.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununda dükkân dekoru olarak kullanılan unsur nedir?",
+        "cevap": "İskemle ve iki kanatlı küçük bir paravan.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununda dışa dönük, özü sözü bir, cahil ama sezgisi güçlü olan ve Karagöz'e benzeyen başkarakter kimdir?",
+        "cevap": "Kavuklu.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununda okumuş, Kavuklu'ya ne yapması gerektiğini söyleyen, oyunu yönlendiren ve Hacivat'a benzeyen başkarakter kimdir?",
+        "cevap": "Pişekar.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununda kadın rolünü üstlenen oyuncuların cinsiyeti nedir?",
+        "cevap": "Erkek.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyunundaki Rum tipine ne ad verilir?",
+        "cevap": "Balama.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununun giriş (mukaddime) bölümünde zurnanın çaldığı ilk hava hangi karakterin sahneye çıkacağını haberdar eder?",
+        "cevap": "Pişekar.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununun mukaddime bölümünde Kavuklu ile birlikte oyun alanına gelen cüce, kambur tipe ne ad verilir?",
+        "cevap": "Kavuklu arkası.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Kavuklu ile Pişekar'ın karşılıklı konuştuğu muhavere bölümü hangi iki alt bölümden oluşur?",
+        "cevap": "Arzbar ve tekerleme.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Muhaverenin, Kavuklu ile Pişekar'ın birbirleriyle tanıdık çıktıkları alt bölümüne ne ad verilir?",
+        "cevap": "Arzbar.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Kavuklu'nun olağan dışı bir olayı anlattığı ve sonunda bunun bir düş olduğunun anlaşıldığı muhavere alt bölümü hangisidir?",
+        "cevap": "Tekerleme.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununun asıl bölümü olan ve diğer tiplerin de görüldüğü bölüm hangisidir?",
+        "cevap": "Fasıl.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Orta oyununu bitiren, seyircilerden özür dileyip bir sonraki oyun hakkında bilgi veren karakter kimdir?",
+        "cevap": "Pişekar.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Kelime anlamı 'metheden, öven' olan ve tek kişilik bir gösteri şeklinde icra edilen geleneksel Türk tiyatrosu hangisidir?",
+        "cevap": "Meddah.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Meddah oyununun oyuncu kadrosu bakımından temel özelliği nedir?",
+        "cevap": "Tek kişilik bir gösteri olmasıdır.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Perde, sahne ve dekorun bulunmadığı meddah gösterisinde kullanılan temel aksesuarlar nelerdir?",
+        "cevap": "Sopa (değnek), mendil (makreme) ve iskemle (sandalye).",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Geleneksel meddah gösterisinde mendilin diğer adı nedir?",
+        "cevap": "Makreme.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Meddah, hikayesini anlatırken nereye oturur?",
+        "cevap": "Yüksekçe bir yere konmuş iskemleye oturur.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Meddahın anlattığı hikayeyi bir tiyatro oyununa dönüştüren temel unsurlar nelerdir?",
+        "cevap": "Ses, şive, el, yüz ve gövde hareketleriyle yaptığı çeşitli taklitlerdir.",
+        "unite": "tiyatro",
+        "tema": "geleneksel türk tiyatrosu"
+    },
+    {
+        "Soru": "Halk edebiyatının en yaygın nazım şekli hangisidir?",
+        "cevap": "Koşma.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Koşma nazım şeklinin olmazsa olmazı sayılan hece ölçüsü kalıbı hangisidir?",
+        "cevap": "11'li hece ölçüsü.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Koşma, semai ve varsağı nazım şekillerinin ortak kafiye şeması nasıldır?",
+        "cevap": "abab / cccb / dddb (koşma tarzı).",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Koşmada şairin mahlası hangi dörtlükte yer alır?",
+        "cevap": "Son dörtlükte.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Koşma hangi nazım türlerinde yazılır?",
+        "cevap": "Koçaklama, güzelleme, taşlama ve ağıt.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Semai nazım şekli kaçlı hece ölçüsüyle söylenir?",
+        "cevap": "8'li hece ölçüsü.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Varsağıyı diğer 8'li hece ölçüsüyle yazılan şiirlerden ayıran en belirgin üslup özelliği nedir?",
+        "cevap": "Yiğitçe, mertçe bir üslupla söylenmesi ve bre, hey, be hey gibi ünlemler barındırmasıdır.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Varsağı nazım şeklinde ünlü şiirleri bulunan halk şairleri kimlerdir?",
+        "cevap": "Karacaoğlan ve Dadaloğlu.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "17. yüzyılın önemli yeniçeri şairlerinden olan ve 'Genç Osman Destanı' adlı yapıtıyla tanınan hece şairi kimdir?",
+        "cevap": "Kayıkçı Kul Mustafa.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "17. yüzyılda hem hece hem de aruz ölçüsünü kullanan ve 'Şairname' adlı eseriyle tanınan halk şairi kimdir?",
+        "cevap": "Aşık Ömer.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "18. yüzyılda hem hece hem de aruz ölçüsünü birlikte kullanan ve 'Gevheri Divanı' bulunan halk şairi kimdir?",
+        "cevap": "Gevheri.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "19. yüzyılda hem hece hem aruz ölçüsüyle şiirler yazan ve 'Divan-ı Emrah' adlı eseri bulunan halk şairi kimdir?",
+        "cevap": "Erzurumlu Emrah.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "19. yüzyılda Avşar boyunda yetişen, 'Ferman padişahınsa dağlar bizimdir' sözüyle özdeşleşen ve koçaklamalarıyla tanınan halk şairi kimdir?",
+        "cevap": "Dadaloğlu.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "19. yüzyılda hem hece hem aruz ölçüsünü kullanan, taşlamalarıyla öne çıkan ve 'Sergüzeştname' adlı eserin sahibi olan halk şairi kimdir?",
+        "cevap": "Bayburtlu Zihni.",
+        "unite": "şiir",
+        "tema": "asık tarzı halk siiri"
+    },
+    {
+        "Soru": "Dini-tasavvufi Halk edebiyatının en çok kullanılan türü olan, Allah'ın varlığını ve birliğini konu edinen şiirlere ne ad verilir?",
+        "cevap": "İlahi.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Tasavvuf edebiyatında 'Allah'tan geldik, mutlak dönüş yine O'nadır' inanışını anlatan şiir türü hangisidir?",
+        "cevap": "Devriye.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Devriye nazım türünün bu isimle anılmasının temel nedeni nedir?",
+        "cevap": "Bir döngünün devrederek tamamlanması esasını anlatmasıdır.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Din büyüklerinin başından geçen menkıbeleri anlatan eserlere ne ad verilir?",
+        "cevap": "Menakıbname.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Din büyüklerinin hayatını ve kerametlerini konu edinen eserlere ne ad verilir?",
+        "cevap": "Velayetname.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Osmanlı zamanında Ahi Evran'ın temellerini attığı esnaf teşkilatının esaslarına dayanan dini-tasavvufi eser türü hangisidir?",
+        "cevap": "Fütüvvetname.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Tasavvuf anlayışına göre insan vücudunun geçirmiş olduğu evreleri anlatan eserlere ne ad verilir?",
+        "cevap": "Vücutname.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Din uğruna yapılan savaşların anlatıldığı ve kahramanlıkların işlendiği eserlere ne ad verilir?",
+        "cevap": "Gazavatname.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Şiirlerinde hem hece hem de aruz ölçüsünü kullanan, 'Nasihatler Kitabı' olarak bilinen didaktik mesnevi tarzındaki 'Risaletü'n Nushiyye' adlı eserin sahibi olan tasavvuf şairi kimdir?",
+        "cevap": "Yunus Emre.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Bektaşi geleneğinin öncüsü olan ve didaktik özellikler taşıyan 'Makalat' adlı eseriyle tanınan mutasavvıf kimdir?",
+        "cevap": "Hacı Bektaş Veli.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Hem hece hem aruz ölçüsünü kullanan, 'Budalaname' ve vücutname türündeki eserleriyle tanınan dini-tasavvufi halk edebiyatı sanatçısı kimdir?",
+        "cevap": "Kaygusuz Abdal.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Bayrami tarikatının kurucusu olan ve ilahileriyle tanınan mutasavvıf kimdir?",
+        "cevap": "Hacı Bayram Veli.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Şiirlerinde hem hece hem aruz ölçüsünü kullanan, 'Müzekki'n Nüfus' ve bir 'Divan' sahibi olan tasavvuf şairi kimdir?",
+        "cevap": "Eşrefoğlu Rumi.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Divan edebiyatından etkilenmeyip sadece hece ölçüsünü kullanan ve bir 'Divan'ı bulunan ünlü Alevi-Bektaşi halk şairi kimdir?",
+        "cevap": "Pir Sultan Abdal.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Dini-tasavvufi halk şiiri geleneğinde 'Divan-ı İlâhiyyât' adlı eseriyle öne çıkan şair kimdir?",
+        "cevap": "Niyazi Mısri.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Tasavvufi ve ansiklopedik nitelikler taşıyan ünlü 'Marifetname' adlı eserin sahibi olan sâret şairi ve düşünür kimdir?",
+        "cevap": "Erzurumlu İbrahim Hakkı.",
+        "unite": "şiir",
+        "tema": "dini-tasavvufi halk siiri"
+    },
+    {
+        "Soru": "Kasideler işledikleri konulara göre sınıflandırıldığında, Allah'ın varlığını ve birliğini anlatmayı konu edinen kaside türü hangisidir?",
+        "cevap": "Tevhid.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Allah'a dua etmek amacıyla yazılan kasidelere ne ad verilir?",
+        "cevap": "Münacat.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Herhangi bir şahsı, devlet büyüğünü ya da önemli bir kişiyi övmek amacıyla kaleme alınan kaside türü hangisidir?",
+        "cevap": "Methiye.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Peygamberleri, özellikle Hz. Muhammed'i övmek ve ona duyulan sevgiyi dile getirmek amacıyla yazılan kasidelere ne ad verilir?",
+        "cevap": "Naat.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Bir kimseyi, bir kurumu ya da toplumun aksayan yönlerini eleştirmek amacıyla yazılan kaside türü hangisidir?",
+        "cevap": "Hicviye.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Ölen bir kişinin arkasından duyulan acıyı ve onun değerlerini anlatmak amacıyla kaleme alınan kaside türüne ne ad verilir?",
+        "cevap": "Mersiye.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatında beyit ve konu sınırlaması olmayan; savaş, aşk, tarihi ve dini olayların anlatıldığı nazım şekli hangisidir?",
+        "cevap": "Mesnevi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Mesnevi nazım şeklinin her beytinin kendi arasında kafiyelenme şeması nasıldır?",
+        "cevap": "aa / bb / cc.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Türk edebiyatındaki ilk mesnevi örneği, Yusuf Has Hacib tarafından yazılan hangi eserdir?",
+        "cevap": "Kutadgu Bilig.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatında beş mesneviden oluşan eserler bütününe ne ad verilir?",
+        "cevap": "Hamse.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Edebiyatımızda ilk hamse sahibi olan şair kimdir?",
+        "cevap": "Ali Şir Nevai.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatı nesir türleri arasında günlük türünün karşılığı olan terim hangisidir?",
+        "cevap": "Ruzname.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Sefirlerin (büyükelçilerin) görevli bulundukları yerlerdeki yaptıkları çalışmaları ve gözlemlerini anlattığı eserlere ne ad verilir?",
+        "cevap": "Sefaretname.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Bugünkü gezi yazılarının karşılığı olan nesir türünün edebiyatımızdaki ilk örneği, Seydi Ali Reis'in hangi eseridir?",
+        "cevap": "Miratü'l-Memalik.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Divan edebiyatında mektup türünde yazılan eserlerin toplandığı yapıtlara ne ad verilir ve bu türün en ünlü örneği hangisidir?",
+        "cevap": "Münşeat denir; en ünlü örneği Fuzuli'nin Şikayetname'sidir.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Şairlerin hayat hikayelerini ve şiir anlayışlarını anlayan, günümüz biyografi/antoloji türüne benzeyen eserlere ne ad verilir?",
+        "cevap": "Tezkire.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Türk edebiyatında ilk tezkire örneği kabul edilen, Ali Şir Nevai'ye ait olan eserin adı nedir?",
+        "cevap": "Mecalisü'n-Nefais.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı nesir"
+    },
+    {
+        "Soru": "Divan edebiyatında yalın bir Türkçe kullanmayı amaçlayan ancak uzun vadede kalıcı olamayarak başarısız olan akım hangisidir?",
+        "cevap": "Türkiibasit.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri akımları"
+    },
+    {
+        "Soru": "Divan şiirinde öğretiye, ahlaki ve felsefi düşüncelere dayanan, en önemli temsilcisi Nabi olan edebi tarz hangisidir?",
+        "cevap": "Hikemî Tarz.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri akımları"
+    },
+    {
+        "Soru": "Divan edebiyatında dilin oldukça ağırlaşmasına yol açan, imgelerle ve soyut kavramlarla yüklü olan, Şeyh Galip'in en önemli temsilcileri arasında yer aldığı edebi akım hangisidir?",
+        "cevap": "Sebkihindi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri akımları"
+    },
+    {
+        "Soru": "Divan şiirinin ilk sanatçısı kabul edilen, din dışı konularda eser veren ve 'Selçuklu Şehnamesi' adlı yapıtı bulunan şair kimdir?",
+        "cevap": "Hoca Dehkani.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Edebiyatımızda kaside biçiminde yazılmış dini-didaktik bir eser olan 'Çarhname'nin sahibi kimdir?",
+        "cevap": "Ahmet Fakih.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Türk edebiyatında aşk konusunu işleyen ilk mesnevi örneklerinden biri olan 'Yusuf ile Züleyha' adlı eserin yazarı kimdir?",
+        "cevap": "Şeyyad Hamza.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Kuşların dili anlamına gelen, alegorik ve sembolik özellikler taşıyan 'Mantıkut Tayr' ile 'Felekname' adlı eserlerin sahibi olan divan şairi kimdir?",
+        "cevap": "Gülşehri.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Türkçenin bir edebiyat dili olması için çaba gösteren, 'Garipname' ve 'Fakrname' adlı eserleriyle tanınan sanatçı kimdir?",
+        "cevap": "Aşık Paşa.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "'İskendername', 'Cemşid ü Hurşid' ve tıp konulu 'Tervihü'l Ervah' adlı eserleriyle tanınan divan şairi kimdir?",
+        "cevap": "Ahmedi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Edebiyatımızda 'Enel Hak' anlayışı, yazdığı tuyuğları, 'Şah-ı Şehit' olarak anılması ve derisi yüzülerek öldürülmesiyle bilinen; aynı zamanda 'Cavidanname' ile ilişkilendirilen şair kimdir?",
+        "cevap": "Nesimi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Eşeklerin sembolize edildiği, edebiyatımızın ilk hiciv ve fabl örneği kabul edilen alegorik mesnevi 'Harname'nin yazarı kimdir?",
+        "cevap": "Şeyhi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "'Kerem Kasidesi', 'Benefşe Kasidesi' ve 'Ab Kasidesi' adlı önemli şiirleriyle tanınan divan edebiyatı sanatçısı kimdir?",
+        "cevap": "Ahmet Paşa.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Şiirlerinde kullandığı deyim ve atasözü çalışmalarıyla tanınan, 'Hüsrv ü Rum' unvanına sahip olan divan şairi kimdir?",
+        "cevap": "Necati.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Edebiyatımızda halk arasında 'Mevlid' olarak bilinen, Hz. Muhammed'in doğumunu ve hayatını anlatan 'Vesiletün Necat' adlı eserin sahibi kimdir?",
+        "cevap": "Süleyman Çelebi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Türk edebiyatının ilk tezkiresi olan 'Mecalisün Nefais' ile Türkçe ve Farsçayı karşılaştırarak Türkçenin üstünlüğünü savunduğu 'Muhakemetül Lügateyn' adlı eserlerin yazarı kimdir?",
+        "cevap": "Ali Şir Nevai.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "'Leyla ile Mecnun' mesnevisi, 'Bengü Bade', 'Hadikatüs Süeda', 'Şikayetname' adındaki ünlü mektubu ve 'Su Kasidesi' ile tanınan 16. yüzyıl divan şairi kimdir?",
+        "cevap": "Fuzuli.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Rindane gazelleriyle tanınan ve Kanuni Sultan Süleyman'ın vefatı üzerine kaleme aldığı 'Kanuni Mersiyesi' ile özdeşleşen divan şairi kimdir?",
+        "cevap": "Baki.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatında 'Şem ü Pervane' adlı mesnevisiyle öne çıkan şair kimdir?",
+        "cevap": "Zati.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatında toplumsal yergiler içeren 'Terkibibent'leri ile tanınan ve bu eserine en güzel nazireleri Tanzimat dönemi sanatçısı Ziya Paşa'nın yazdığı şair kimdir?",
+        "cevap": "Bağdatlı Ruhi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Edebiyatımızdaki en güzel 'Yusuf ile Züleyha' mesnevilerinden birini yazan ve aynı zamanda 'Şehzade Mustafa Mersiyesi' ile tanınan şair kimdir?",
+        "cevap": "Taşlıcalı Yahya.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Hikemî tarzın öncüsü olan, oğlu Ebülhayr adına yazdığı bir öğüt kitabı niteliğindeki 'Hayriye' mesnevisiyle birlikte 'Hayrabad' ve 'Tuhfetül Harameyn' eserlerinin sahibi kimdir?",
+        "cevap": "Nabi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Divan edebiyatının en büyük hiciv üstadı olan ve eleştirilerini topladığı 'Siham-ı Kaza' (Kaza Okları) adlı eseriyle tanınan şair kimdir?",
+        "cevap": "Nefi.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Sebkihindi akımının temsilcilerinden olan ve Türk edebiyatında şarkı nazım şeklinin ilk örneklerini (ilk şarkı) yazan şair kimdir?",
+        "cevap": "Naili.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Sebkihindi akımından etkilenen, başarılı gazelleriyle tanınan ve 'Edirne Şehrengizi' adlı eseri bulunan divan şairi kimdir?",
+        "cevap": "Neşati.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Döneminin önemli din adamlarından olup divan şiiri geleneğinde yazdığı başarılı gazelleriyle öne çıkan sanatçı kimdir?",
+        "cevap": "Şeyhülislam Yahya.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Lale Devri'nin eğlence ve neşe hayatını, Sadabad eğlencelerini şiirlerine yansıtan ve edebiyatımızın en güzel şarkı örnekleri ile gazellerini yazan şair kimdir?",
+        "cevap": "Nedim.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "Sebkihindi akımının en büyük temsilcisi kabul edilen, sembolik ve alegorik bir şaheser olan 'Hüsnü Aşk' (Hüsn ü Aşk) adlı mesnevinin sahibi kimdir?",
+        "cevap": "Şeyh Galip.",
+        "unite": "şiir",
+        "tema": "divan edebiyatı şiiri"
+    },
+    {
+        "Soru": "17. yüzyıl Fransa'sında ortaya çıkan, 'akıl' kavramını yücelten ve sanatçıların eserlerine kişisel görüşlerini katmayıp 'sanat için sanat' anlayışını benimsedikleri edebi akım hangisidir?",
+        "cevap": "Klasisizm (Kuralcılık).",
+        "unite": "edebi akımlar",
+        "tema": "batı edebiyatı akımları"
+    },
+    {
+        "Soru": "Klasisizme tepki olarak doğan, akıl karşısında 'duygu'yu yücelten, iyi-kötü çatışması ile zıtlıkları barındıran ve 'sanat toplum içindir' anlayışını esas alan edebi akım hangisidir?",
+        "cevap": "Romantizm (Coşumculuk).",
+        "unite": "edebi akımlar",
+        "tema": "batı edebiyatı akımları"
+    },
+    {
+        "Soru": "Romantizmin aşırı duygusallığına tepki olarak doğan, sanatçıların eserlerinde kişiliklerini gizledikleri, gözlem ve belgeye dayanan 'sanat için sanat' anlayışına sahip edebi akım hangisidir?",
+        "cevap": "Realizm (Gerçekçilik).",
+        "unite": "edebi akımlar",
+        "tema": "batı edebiyatı akımları"
+    },
+    {
+        "Soru": "Realizme tepki olarak doğmayıp tersine realizmi daha da ileri götüren, toplum için sanat anlayışıyla insan kişiliğini kalıtım (soyaçekim) ve çevrenin belirlediğini savunan; toplumu laboratuvar, insanı ise kobay olarak gören edebi akım hangisidir?",
+        "cevap": "Natüralizm (Doğalcılık).",
+        "unite": "edebi akımlar",
+        "tema": "batı edebiyatı akımları"
+    },
+    {
+        "Soru": "Romantik şiire tepki olarak Fransa'da doğan, realizm ilkelerinin şiire yansıması olan ve sanatçıların güzelliği yakalayabilmek adına biçim kusursuzluğuna büyük önem verdikleri akım hangisidir?",
+        "cevap": "Parnasizm (Şiirde Gerçekçilik).",
+        "unite": "edebi akımlar",
+        "tema": "batı edebiyatı akımları"
+    },
+  {
+    "Soru": "Natüralizme tepki olarak doğan, her şeyden önce musiki anlayışıyla hareket eden ve şiirlerinde sararmış yapraklar ile alaca karanlık havaları sıkça kullanan edebi akım hangisidir?",
+    "cevap": "Sembolizm (Simgecilik).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "'Sanat sanat içindir' düşüncesinin hâkim olduğu, sanatçının dünyayı olduğu gibi anlatamayacağını ve sadece dünyanın kişide bıraktığı izlenimleri aktarabileceğini savunan edebi akım hangisidir?",
+    "cevap": "Empresyonizm (İzlenimcilik).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "20. yüzyılın başında Empresyonizme tepki olarak doğan, insanın iç dünyasındaki duyguları dışa vurmayı amaçlayan ve önce resim alanında ortaya çıkıp sonra edebiyata yansıyan akım hangisidir?",
+    "cevap": "Ekspresyonizm (Dışa Vurumculuk).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "1909 yılında İtalyan sanatçı Marinetti tarafından başlatılan; makineleşmeye hayranlık, tren ve uçaklara övgü gibi temaları barındıran, fabrika gürültüleri ile işleyen çarkların sesini şiire taşıyan akım hangisidir?",
+    "cevap": "Fütürizm (Gelecekçilik).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "Kuralsızlığı kural edinen, geleneksel ölçü ve kafiye gibi kurallara karşı çıkarak geçmişi reddeden, her şeye kuşkuyla bakıp aklın hiçbir önemi olmadığını savunan edebi akım hangisidir?",
+    "cevap": "Dadaizm (Kuralsızlık).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "Andre Breton tarafından kuralları konulan, bilinçaltının (şuuraltı) açığa çıkarılmasını hedefleyen; sarhoşluk ve rüyaları bu bilinçaltının ortaya çıktığı anlar olarak gören edebi akım hangisidir?",
+    "cevap": "Sürrealizm (Gerçeküstücülük).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "Dünyada insanın kendine yardım edecek kendinden başka kimsesi olmadığını ve insanın kendi değerlerini kendisi yaratıp davranışlarından kendisinin sorumlu olduğunu savunan akım hangisidir?",
+    "cevap": "Egzistansiyalizm (Varoluşçuluk).",
+    "unite": "edebi akımlar",
+    "tema": "batı edebiyatı akımları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde çıkarılan ilk resmi gazete hangisidir?",
+    "cevap": "Takvimi Vekayi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde çıkarılan ilk yarı resmi gazete hangisidir?",
+    "cevap": "Ceridei Havadis.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde çıkarılan ilk ve en uzun soluklu özel gazete hangisidir?",
+    "cevap": "Tercümanı Ahval.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Tanzimat Dönemi gazetelerinden olan ve Namık Kemal ile Recaizade Mahmut Ekrem (R. Mahmut) tarafından çıkarılan gazete hangisidir?",
+    "cevap": "Tasviri Efkar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde Ali Suavi (A. Suavi) tarafından çıkarılan gazete hangisidir?",
+    "cevap": "Muhbir.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Namık Kemal (N. Kemal) ve Ziya Paşa (Z. Paşa) tarafından çıkarılan Tanzimat Dönemi gazetesi hangisidir?",
+    "cevap": "Hürriyet.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi'nin Önemli Gazeteleri"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin 'Felatun Bey ile Rakım Efendi' ve Recaizade Mahmut Ekrem'in 'Araba Sevdası' adlı eserlerinde ortaklaşa işlenen ana tema hangisidir?",
+    "cevap": "Yanlış Batılılaşmanın yol açtığı komik durumlar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Şemsettin Sami'nin 'Taaşşuk-ı Talat ve Fitnat' adlı eserinde işlenen ana tema hangisidir?",
+    "cevap": "Görmeden evlilik.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Samipaşazade Sezai (Sami Paşazade Sezai) tarafından kaleme alınan 'Sergüzeşt' romanının ana teması nedir?",
+    "cevap": "Esaret, kölelik, cariyelik.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Namık Kemal'in 'İntibah' ve Recaizade Mahmut Ekrem'in 'Araba Sevdası' eserlerinde ele alınan ortak toplumsal yıkım teması nedir?",
+    "cevap": "Yanlış kadınları sevmenin doğurduğu yıkımlar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Nabizade Nazım'ın 'Karabibik' adlı eserinde işlenen ana tema hangisidir?",
+    "cevap": "Köy yaşamı.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Nabizade Nazım'ın 'Zehra' adlı romanında ele aldığı baskın psikolojik ve toplumsal tema nedir?",
+    "cevap": "Kıskançlık.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Namık Kemal tarafından kaleme alınan 'Cezmi' romanının ana teması nedir?",
+    "cevap": "Tarihi olaylar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Romanında Tema"
+  },
+  {
+    "Soru": "Tanzimat edebiyatının kurucularından olan, Türk edebiyatında noktalama işaretlerini ilk kez kullanan ve Batılı anlamda ilk tiyatro eseri olan 'Şair Evlenmesi'ni kaleme alan sanatçı hangisidir?",
+    "cevap": "Şinasi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Şinasi'nin Fransız edebiyatından yaptığı şiir çevirilerini bir araya getirdiği eseri hangisidir?",
+    "cevap": "Tercüme-i Manzume.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Şinasi'nin kendi şiirlerinden yaptığı seçmelere yer verdiği eseri hangisidir?",
+    "cevap": "Müntehabat-ı Eş'ar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Şinasi tarafından hazırlanan, Türk edebiyatında atasözleri ve folklor ile ilgili yapılan ilk çalışma olma özelliği taşıyan eser hangisidir?",
+    "cevap": "Durub-ı Emsal-i Osmaniye.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Namık Kemal'in 'Vatan yahut Silistre' adlı yapıtında yer alan ve eserin olay örgüsünde merkezi rol oynayan başkarakterler aşağıdakilerin hangisinde doğru verilmiştir?",
+    "cevap": "İslam Bey, Zekiye, Ahmet Sıtkı Bey.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Türk edebiyatında sahnelenen ilk tiyatro eseri olma özelliği taşıyan 'Vatan yahut Silistre'de İslam Bey ve Zekiye karakterlerinin yanı sıra karşımıza çıkan bir diğer önemli şahsiyet hangisidir?",
+    "cevap": "Ahmet Sıtkı Bey.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ön sözünde ilk tiyatro eleştirisi kabul edilen 'Mukaddime-i Celal'in yer aldığı, sahnelemek için değil okunmak için yazılmış olan 'Celaleddin Harzemşah' tiyatrosunun karakter kadrosu kimlerden oluşmaktadır?",
+    "cevap": "Celal, Neyyire, Mihrican.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Namık Kemal'in 'Celaleddin Harzemşah' adlı eserinde karşımıza çıkan ve sınavlarda ayırt edici unsur olarak sorulan Neyyire ve Mihrican karakterleri hangi edebi türdeki bir eserde yer almaktadır?",
+    "cevap": "Tiyatro.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Türk edebiyatının ilk edebi romanı olan 'İntibah'ta yaşanan trajik olayların merkezinde yer alan; Ali Bey ve Dilaşup ile birlikte eserin şahıs kadrosunu tamamlayan tehlikeli kadın karakter hangisidir?",
+    "cevap": "Mehpeyker.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Namık Kemal'in 'İntibah' adlı romanında yer alan; iyi niyetli fakat tecrübesiz Ali Bey'in hayatına giren ve eserdeki çatışmayı alevlendiren iki kadın karakter hangileridir?",
+    "cevap": "Dilaşup, Mehpeyker.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Edebiyatımızın ilk tarihi romanı olan 'Cezmi'de, esere adını veren Cezmi karakterinin dışında olayların merkezinde bulunan ve tarihi arka planı şekillendiren diğer iki önemli karakter hangisidir?",
+    "cevap": "Adil Giray, Perihan.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Namık Kemal'in 'Cezmi' romanında yer alan Adil Giray ve Perihan karakterleri, bu eserin Türk edebiyatındaki hangi 'ilk' unvanına sahip olduğunu doğrudan hatırlatır?",
+    "cevap": "İlk tarihi roman.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın şiir türünde kaleme aldığı ve başarılı bir hiciv örneği kabul edilen eseri hangisidir?",
+    "cevap": "Zafername.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın makale türündeki hangi eseri, Divan şiirini kabul etmeyen bir yaklaşımla kaleme alınmıştır?",
+    "cevap": "Şiir ve İnşa.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın antoloji türündeki hangi eseri, 'Şiir ve İnşa' makalesindeki fikrinin aksine Divan şiirini savunur?",
+    "cevap": "Harabat.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın röportaj türünde yazdığı, siyasi eleştiri niteliği taşıyan ve edebiyatımızda rüya motifli bir 'habname' örneği kabul edilen eseri hangisidir?",
+    "cevap": "Rüya.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın hatıra türünde kaleme aldığı ve Batılı anlamda ilk anı örneği kabul edilen eseri hangisidir?",
+    "cevap": "Defter-i Amal.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ziya Paşa'nın Bağdatlı Ruhi'nin ünlü eserine nazire olarak kaleme aldığı ve toplumsal yergileri barındıran nazım şekli hangisidir?",
+    "cevap": "Terkibibent.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi sanatçılarından Şemsettin Sami'nin kaleme aldığı ve Türk edebiyatının ilk yerli romanı olma özelliği taşıyan eser hangisidir?",
+    "cevap": "Taaşşuk-ı Talat ve Fitnat.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Edebiyatımızın ilk yerli romanı kabul edilen 'Taaşşuk-ı Talat ve Fitnat' adlı eserde yer alan ve sınavlar için önem arz eden karakter kadrosu kimlerden oluşmaktadır?",
+    "cevap": "Hacı Bey, Fitnat, Talat, Ali Bey.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Şemsettin Sami'nin 'Taaşşuk-ı Talat ve Fitnat' romanında karşımıza çıkan; Fitnat ve Talat ile birlikte şahıs kadrosunu oluşturan diğer iki karakter hangisidir?",
+    "cevap": "Hacı Bey, Ali Bey.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Şemsettin Sami tarafından kaleme alınan, dil ve sözlük çalışmalarında çok önemli bir yere sahip olan Kamus-ı Türki ve Kamus-ı Arabi adlı eserlerin türü nedir?",
+    "cevap": "Sözlük.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde sözlük çalışmalarının yanı sıra Orhun Yazıtları ve Kutadgu Bilig üzerinden yaptığı bilimsel incelemelerle tanınan sanatçı hangisidir?",
+    "cevap": "Şemsettin Sami.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Türk edebiyatında Türkçülük akımının hazırlayıcısı ve öncülerinden biri olarak kabul edilen, tiyatro ve tarih alanındaki çalışmalarıyla bilinen Tanzimat sanatçısı hangisidir?",
+    "cevap": "Ahmet Vefik Paşa.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Vefik Paşa'nın Moliere'den adapte ettiği; Kocalar Mektebi, Kadınlar Mektebi, Zor Nikah ve Zoraki Tabib adlı eserlerin ortak edebi türü nedir?",
+    "cevap": "Tiyatro Çevirileri.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Vefik Paşa'nın tarih alanında kaleme aldığı ve Türk tarihi açısından büyük önem taşıyan eseri hangisidir?",
+    "cevap": "Şecere-i Türk.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde çok fazla eser vermesi nedeniyle 'Yazı Makinesi' olarak tanınan ve halkı eğitmek amacıyla yazdığı için romanları teknik açıdan kusurlu kabul edilen sanatçı hangisidir?",
+    "cevap": "Ahmet Mithat Efendi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin kaleme aldığı ve Türk edebiyatında ilk hikaye örneği kabul edilen eser hangisidir?",
+    "cevap": "Letaif-i Rivayat.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin 'Henüz On Yedi Yaşında', 'Paris'te Bir Türk', 'Hasan Mellah', 'Hüseyin Fellah' ve 'Müşahedat' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Roman.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin yanlış Batılılaşma konusunu ele aldığı, Felatun Bey ve Rakım Efendi karakterleri üzerinden iki farklı zihniyeti çatıştırdığı ünlü romanı hangisidir?",
+    "cevap": "Felatun Bey'le Rakım Efendi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Felatun Bey'le Rakım Efendi romanında, alafranga özentisi bir yaşamı temsil eden Felatun Bey'in karşısına çalışkan, dürüst ve sentezci bir karakter olarak çıkarılan şahsiyet kimdir?",
+    "cevap": "Rakım Efendi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin 'Yeniçeriler' adlı yapıtının yanı sıra Türk edebiyatında ilk polisiye roman olma özelliği taşıyan eseri hangisidir?",
+    "cevap": "Esrar-ı Cinayat.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin gezi yazısı (seyahatname) türünde kaleme aldığı önemli eseri hangisidir?",
+    "cevap": "Avrupa'da Bir Cevelan.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin tiyatro türünde kaleme aldığı eser hangisidir?",
+    "cevap": "Çengi.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Ahmet Mithat Efendi'nin Servetifünun yazarlarını ağır biçimde eleştirmek ve dillerini anlaşılmaz bulduğunu belirtmek amacıyla onlar için kullandığı ünlü niteleme hangisidir?",
+    "cevap": "Dekadanlar.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde Recaizade Mahmut Ekrem'in 'kulak için kafiye' anlayışına karşı eski şiir geleneğini savunarak 'Göz için kafiye' anlayışını benimseyen sanatçı hangisidir?",
+    "cevap": "Muallim Naci.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Muallim Naci'nin kaleme aldığı, Türk edebiyatında köyden söz eden ilk şiir olma özelliği taşıyan önemli eseri hangisidir?",
+    "cevap": "Köylü Kızların Şarkısı.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Muallim Naci'nin 'Ateşpare', 'Şerare' ve 'Füruzan' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Şiir.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Muallim Naci'nin, Recaizade Mahmut Ekrem'in Zemzeme adlı yapıtına karşı eski edebiyatı savunmak amacıyla eleştiri türünde yazdığı ünlü eseri hangisidir?",
+    "cevap": "Demdeme.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Muallim Naci'nin çocukluk anılarını çocukluk gözüyle ve sade bir dille kaleme aldığı anı türündeki eseri hangisidir?",
+    "cevap": "Ömer'in Çocukluğu.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Türk edebiyatında hem yaşamı hem de eserlerindeki zıtlıklar nedeniyle 'Tezatlar Şairi' unvanıyla tanınan Tanzimat Dönemi sanatçısı hangisidir?",
+    "cevap": "Abdülhak Hamit Tarhan.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan tarafından kaleme alınan ve Türk edebiyatının ilk pastoral şiiri kabul edilen eser hangisidir?",
+    "cevap": "Sahra.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan'ın eşi Fatma Hanım'ın ölümü üzerine yazdığı, metafizik düşünceler içeren ünlü şiiri hangisidir?",
+    "cevap": "Makber.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan'ın Türk edebiyatında aruzla yazılan ilk kafiyesiz (uyaksız) şiir olma özelliği taşıyan yapıtı hangisidir?",
+    "cevap": "Validem.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan'ın şiir türünde kaleme aldığı 'Ölü', 'Hacle' ve 'Garam' dışındaki tiyatro eserleri arasında yer alan; isimleri kısa ve nokta atışı soru olarak gelebilecek yapıtları hangileridir?",
+    "cevap": "Eşber, Finten, Hakan.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan'ın 'Macerayı Aşk', 'Sabr ü Sebat', 'İçli Kız', 'Duhteri Hindu' ve 'Liberte' adlı eserlerinin ortak türü nedir?",
+    "cevap": "Tiyatro.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Abdülhak Hamit Tarhan'ın dramatik ve tarihi ögeler barındıran; 'Nesteren', 'Sardanapal', 'Turhan', 'İlhan' ve 'Zeynep' adlı yapıtları hangi edebi türün örnekleridir?",
+    "cevap": "Tiyatro.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi sanatçılarından Samipaşazade Sezai'nin kaleme aldığı, Türk edebiyatında romantizmden realizme geçişte bir köprü görevi üstlenen ünlü roman hangisidir?",
+    "cevap": "Sergüzeşt.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Samipaşazade Sezai'nin 'Sergüzeşt' adlı romanında esaret ve kölelik teması ekseninde trajik hayat hikayesi anlatılan merkezi karakter kimdir?",
+    "cevap": "Dilber.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Samipaşazade Sezai tarafından yazılan ve Türk edebiyatında Batılı anlamdaki ilk küçük hikaye örneklerini içeren yapıt hangisidir?",
+    "cevap": "Küçük Şeyler.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tanzimat Dönemi'nde realizm ve natüralizm akımlarının öncülerinden olan Nabizade Nazım'ın kaleme aldığı, Türk edebiyatının ilk köy romanı olma özelliği taşıyan eser hangisidir?",
+    "cevap": "Karabibik.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Nabizade Nazım'ın edebiyatımızda ilk psikolojik roman denemesi kabul edilen ve kıskançlık temasını ele alan ünlü eseri hangisidir?",
+    "cevap": "Zehra.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Nabizade Nazım'ın hikaye türünde kaleme aldığı ve sınav sorusu olarak karşına çıkabilecek iki önemli eseri hangisidir?",
+    "cevap": "Zavallı Kız, Haspa.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Nabizade Nazım'ın şiir türünde kaleme aldığı yapıtı aşağıdakilerden hangisidir?",
+    "cevap": "Heves Ettim.",
+    "unite": "Tanzimat Dönemi Edebiyatı",
+    "tema": "Tanzimat Dönemi Sanatçıları"
+  },
+  
+  {
+    "Soru": "Tanzimat Dönemi'nde 'güzel olan her şey' şiirin konusuyken, şiirin alanını daha da genişleterek 'her şey'i şiirin konusu haline getiren edebi dönem veya topluluk hangisidir?",
+    "cevap": "Servet-i Fünun Dönemi (Edebiyat-ı Cedide).",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun şiirinde parça güzelliği yerine ne ön plana çıkarılmış ve bütünlük anlayışı benimsenmiştir?",
+    "cevap": "Bütün güzelliği.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun sanatçılarının toplumsal konularda yazmak yerine yöneldikleri başlıca bireysel temalar nelerdir?",
+    "cevap": "Aşk, tabiat, aile ve gündelik yaşam.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Divan şiirindeki 'cümlenin beyitte tamamlanması' kuralını yıkarak cümleyi dize ortasında başlatma veya bitirme (anlamı sonraki dizelere kaydırma) esasına dayanan ve Servet-i Fünun'da sıkça kullanılan edebi terim hangisidir?",
+    "cevap": "Anjanbman.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun şairlerinin, aruz kusurlarını gidererek bu nazım ölçüsünü başarıyla uyguladıkları ve uyumlu hale getirdikleri dil hangisidir?",
+    "cevap": "Türkçe.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun döneminde musiki ve ahenk unsurları hangi edebi türün adeta temel amacı haline getirilmiştir?",
+    "cevap": "Şiir.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun dönemi şiirinde en çok etkilenilen iki önemli Batı kökenli edebi akım hangisidir?",
+    "cevap": "Parnasizm ve sembolizm.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Servet-i Fünun sanatçılarının, Divan edebiyatındaki müstezat şekli ile Fransız şiirini birleştirerek geliştirdikleri yeni nazım şekli hangisidir?",
+    "cevap": "Serbest müstezat.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Duygu ve hayallerin düzyazı şeklinde, şiirsel bir havada anlatılması esasına dayanan edebi tür hangisidir?",
+    "cevap": "Mensur şiir.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Edebiyatımızda mensur şiirin ilk örneği kabul edilen ve Halit Ziya Uşaklıgil tarafından kaleme alınan eserin adı nedir?",
+    "cevap": "Mezardan Sesler.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Edebiyatta duygu ve hayallerin düzyazı şeklinde, şiirsel bir havada anlatılması esasına dayanan edebi tür hangisidir?",
+    "cevap": "Mensur şiir.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Genel Özellikleri"
+  },
+  {
+    "Soru": "Türk edebiyatında mensur şiir türünün isim babası olarak kabul edilen ve bu alanda ilk örnekleri veren Servet-i Fünun sanatçısı kimdir?",
+    "cevap": "Halit Ziya Uşaklıgil.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in kaleme aldığı ve Türk edebiyatında mensur şiir türünün ilk örneği olma özelliği taşıyan yapıt hangisidir?",
+    "cevap": "Mezardan Sesler.",
+    "unite": "Servet-i Fünun Dönemi Edebiyatı",
+    "tema": "Servet-i Fünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi sanatçılarından Mehmet Rauf'un kaleme aldığı, Türk edebiyatının ilk psikolojik romanı olma özelliği taşıyan eser hangisidir?",
+    "cevap": "Eylül.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Edebiyatımızın ilk psikolojik romanı kabul edilen 'Eylül' adlı eserde yer alan ve sınavlar için büyük önem arz eden başlıca karakter kadrosu kimlerden oluşmaktadır?",
+    "cevap": "Suat, Süreyya, Necip.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un 'Eylül' romanında karşımıza çıkan; Suat ve Süreyya ile birlikte şahıs kadrosunu oluşturan diğer merkezi karakter hangisidir?",
+    "cevap": "Necip.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un 'Ferdayı Garam', 'Karanfil ve Yasemin' ile vatan sevgisi temasını işlediği 'Halas' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Roman.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un şahıs kadrosunda Mehmet Behiç ve Pervin karakterlerinin yer aldığı ünlü romanı hangisidir?",
+    "cevap": "Genç Kız Kalbi.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un vatan sevgisi konusunu ele aldığı ve Kurtuluş Savaşı dönemini yansıtan ünlü romanı hangisidir?",
+    "cevap": "Halas.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf tarafından kaleme alınan ve edebiyatımızda Halit Ziya'nın Mezardan Sesler'inden sonra bu türün en önemli örneklerinden biri kabul edilen 'Siyah İnciler' adlı yapıtın türü nedir?",
+    "cevap": "Mensur Şiir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un hikaye türünde kaleme aldığı ve sınav sorusu olarak karşına çıkabilecek 'Aşıkane', 'Son Emel' ve 'İhtizar' dışındaki diğer önemli öykü kitabı hangisidir?",
+    "cevap": "Hanımlar Arasında.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un 'Aşıkane', 'Son Emel', 'İhtizar' ve 'Hanımlar Arasında' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Hikaye.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Mehmet Rauf'un tiyatro türünde kaleme aldığı 'Pençe', 'Cidal' ve 'Sansar' adlı yapıtların ortak edebi türü nedir?",
+    "cevap": "Tiyatro.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi'nde 'sanat sanat içindir' anlayışına bağlıyken, Servetifünun sonrasında 'sanat toplum içindir' anlayışına yönelen büyük şair kimdir?",
+    "cevap": "Tevfik Fikret.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in şiirlerinde sıklıkla tercih ettiği, Servetifünun döneminde yaygınlaşan iki önemli Batı kaynaklı nazım şekli hangisidir?",
+    "cevap": "Serbest müstezat ve sone.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in, Recaizade Mahmut Ekrem'in başlattığı tartışmada da yer alan ve şiirde benimsediği kafiye anlayışı hangisidir?",
+    "cevap": "Kafiye kulak içindir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in şiir estetiğini ve biçim kusursuzluğunu şekillendiren, etkilendiği Batı kökenli edebi akım hangisidir?",
+    "cevap": "Parnasizm.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in şiirlerini topladığı ilk ve en önemli şiir kitabı hangisidir?",
+    "cevap": "Rübaba-ı Şikeste.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in oğlu Haluk'un şahsında Türk gençliğine seslendiği ve didaktik bir nitelik taşıyan ünlü eseri hangisidir?",
+    "cevap": "Haluk'un Defteri.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in, dönemin istibdat yönetimine ve İstanbul'a yönelik ağır eleştiriler içeren ünlü şiiri hangisidir?",
+    "cevap": "Sis.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Bütün şiirlerini aruzla yazan Tevfik Fikret'in, sadece çocuklar için kaleme aldığı ve hece ölçüsünü kullandığı tek şiir kitabı hangisidir?",
+    "cevap": "Şermin.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in şiirlerinde sıklıkla işlediği çatışmalardan biri olan 'hayal ile hakikat' temasını ele aldığı ünlü şiiri hangisidir?",
+    "cevap": "Süha ve Pervin.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in 'gelecek nesillere ve gençlere öğüt' niteliğinde kaleme aldığı ünlü şiiri hangisidir?",
+    "cevap": "Ferda.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in din kurumuna ve inançlara yönelik eleştiriler içeren 'Tarih-i Kadim' şiirine karşılık, Mehmet Akif Ersoy'un kendisine 'Zangoç' demesi üzerine Fikret'in de Akif'e verdiği karşılık unvanı nedir?",
+    "cevap": "Molla Sırat.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Tevfik Fikret'in toplumsal ve acıklı konuları şiir formunda hikaye ederek anlattığı 'Balıkçılar', 'Hasta Çocuk', 'Nesrin' ve 'Ramazan Sadakası' adlı yapıtlarının ortak edebi türü nedir?",
+    "cevap": "Manzum hikaye.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi yazarlarından olan, ilk başta Ahmet Mithat etkisiyle yazıp daha sonra realizm akımını benimseyen sanatçı hangisidir?",
+    "cevap": "Hüseyin Cahit Yalçın.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Cahit Yalçın'ın realizm akımının etkisiyle kaleme aldığı ve edebiyatımızda realist çizgideki başarısıyla tanınan ünlü romanı hangisidir?",
+    "cevap": "Hayal İçinde.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Cahit Yalçın'ın 'Hayal İçinde' adlı yapıtının yanı sıra roman türünde kaleme aldığı diğer eseri hangisidir?",
+    "cevap": "Nadide.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Cahit Yalçın'ın 'Nadide' ve 'Hayal İçinde' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Roman.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Cahit Yalçın'ın Servetifünun topluluğuna yöneltilen eleştirilere karşı dönemin diğer sanatçılarıyla girdiği edebi tartışmaları topladığı, eleştiri-polemik türündeki ünlü eseri hangisidir?",
+    "cevap": "Kavgalarım.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Cahit Yalçın'ın hikaye türünde kaleme aldığı ve sınav sorusu olarak karşına çıkabilecek önemli yapıtı hangisidir?",
+    "cevap": "Hayat-ı Muhayyel.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi şiirinin Tevfik Fikret ile birlikte en önemli iki isminden biri olan ve hece ölçüsünü hiç kullanmayarak bütün şiirlerini aruz ölçüsüyle kaleme alan sanatçı hangisidir?",
+    "cevap": "Cenap Şahabettin.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in şiir dilinde alışılmışın dışına çıkarak kullandığı 'berf-i zerrin' (altın kar) ve 'saat-i semenfam' (yasemin renkli saatler) gibi ifadeler edebiyatımızda hangi kavramla adlandırılmaktadır?",
+    "cevap": "Hiç duyulmamış tamlamalar.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in şiirlerini bir araya getirdiği ünlü şiir kitabı hangisidir?",
+    "cevap": "Tamat.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in kış mevsimini, karın yağışını musiki unsurlarıyla ve sembolist bir dille tasvir ettiği, 'Kış Nağmeleri' olarak da bilinen ünlü şiiri hangisidir?",
+    "cevap": "Elhan-ı Şita.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in gezi yazısı türünde kaleme aldığı 'Avrupa Mektupları', 'Suriye Mektupları' ve 'Afak-ı Irak' dışındaki, kutsal topraklara yaptığı yolculuğu anlatan diğer önemli eseri hangisidir?",
+    "cevap": "Hac Yolunda.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in 'Avrupa Mektupları', 'Suriye Mektupları', 'Hac Yolunda' ve 'Afak-ı Irak' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Gezi.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in tiyatro türünde kaleme aldığı, AYT Edebiyat sınavında soru olarak karşına çıkabilecek üç önemli yapıtı hangileridir?",
+    "cevap": "Yalan, Körebe, Küçük Beyler.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in özdeyiş (vecd) türünde kaleme aldığı, hayata ve insana dair vecizelerini topladığı ünlü eseri hangisidir?",
+    "cevap": "Tiryaki Sözler.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Cenap Şahabettin'in düz yazı formunda eleştiri ve makalelerini topladığı 'Nesr-i Harp', 'Nesr-i Sulh' ve 'Evrak-ı Eyyam' adlı yapıtlarının ortak edebi türü nedir?",
+    "cevap": "Eleştiri.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Türk edebiyatında teknik açıdan güçlü, Batılı ve modern anlamda Türk romanının kurucusu kabul edilen Servetifünun sanatçısı kimdir?",
+    "cevap": "Halit Ziya Uşaklıgil.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in eserlerinde gerçekçi gözlemlere yer vermesini ve çevre tasvirlerini başarıyla yapmasını sağlayan, etkilendiği iki önemli edebi akım hangisidir?",
+    "cevap": "Realizm ve natüralizm.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in romanlarında kullandığı, alışılmamış tamlamalar ve yabancı sözcüklerle yüklü dil yapısının genel özelliği nedir?",
+    "cevap": "Ağır bir dil.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in öykücülüğünde olay eksenli, serim-düğüm-çözüm planına sadık kalan hangi hikaye tarzı hakimdir?",
+    "cevap": "Maupassant tarzı (Olay hikayesi).",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Türk edebiyatında büyük yankı uyandıran ve Bihter, Adnan Bey ile Behlül arasındaki olayları konu edinen ünlü romanı hangisidir?",
+    "cevap": "Aşk-ı Memnu.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Aşk-ı Memnu' adlı ünlü romanında olayların merkezinde yer alan Bihter ve Adnan Bey karakterlerinin yanına el yazısıyla da eklenen diğer önemli merkezi karakter kimdir?",
+    "cevap": "Behlül.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Servetifünun neslinin idealist dünyasını, hayal kırıklıklarını ve dönem şairlerini yansıtan ünlü 'dönem romanı' hangisidir?",
+    "cevap": "Mai ve Siyah.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Mai ve Siyah' adlı ünlü dönem romanında olayların geçtiği mekan neresidir?",
+    "cevap": "İstanbul.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Mai ve Siyah' adlı romanında Servetifünun sanatçılarının genel ruh halini de sembolize eden temel çatışma unsuru nedir?",
+    "cevap": "Hayal X gerçek çatışması.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Mai ve Siyah' romanında Servetifünun neslini ve şair tipini temsil eden, Lamia'ya aşık olan merkezi erkek karakter kimdir?",
+    "cevap": "Ahmet Cemil.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Mai ve Siyah' adlı romanında başkahraman Ahmet Cemil'in kız kardeşi olan ve olay örgüsünde önemli bir yer tutan kadın karakter kimdir?",
+    "cevap": "Lamia.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in şahıs kadrosunda Nemide, Nail ve Şevket Bey'in yer aldığı ünlü romanı hangisidir?",
+    "cevap": "Nemide.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Nemide' adlı romanında olay örgüsünün şekillenmesini sağlayan, ismi yapıta da verilen kadın karakter kimdir?",
+    "cevap": "Nemide.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Nemide' adlı romanında Nemide ve Şevket Bey ile birlikte şahıs kadrosunu oluşturan diğer erkek karakter kimdir?",
+    "cevap": "Nail.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Nemide' adlı yapıtında Nail ve Nemide karakterlerinin etrafında yer alan diğer önemli şahıs kimdir?",
+    "cevap": "Şevket Bey.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in İsmail Tayfur, Hacer ve Senia karakterleri ekseninde ticari hayatı ve aile ilişkilerini işlediği ünlü romanı hangisidir?",
+    "cevap": "Ferdi ve Şürekası.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Ferdi ve Şürekası' romanında Hacer ve Senia arasında kalan, romanın merkezi erkek karakteri kimdir?",
+    "cevap": "İsmail Tayfur.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Ferdi ve Şürekası' adlı eserinde İsmail Tayfur ve Senia ile beraber şahıs kadrosunda bulunan zengin iş adamının kızı kimdir?",
+    "cevap": "Hacer.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Ferdi ve Şürekası' adlı ünlü yapıtında İsmail Tayfur'un asıl aşık olduğu fakir ve gururlu kadın karakter kimdir?",
+    "cevap": "Senia.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Vecdi ve Nigar karakterlerinin trajik aşkını ve yaşam mücadelesini ele aldığı ünlü romanı hangisidir?",
+    "cevap": "Bir Ölünün Defteri.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Bir Ölünün Defteri' adlı romanında olay örgüsünün başkahramanı olan ve günlüğü üzerinden hikayeyi öğrendiğimiz karakter kimdir?",
+    "cevap": "Vecdi.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Bir Ölünün Defteri' romanında başkahraman Vecdi'nin büyük bir aşkla bağlı olduğu kadın karakter kimdir?",
+    "cevap": "Nigar.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Ömer Behiç ve Neyyir karakterleri üzerinden bir doktorun aile hayatını ve uğradığı yıkımı anlattığı ünlü romanı hangisidir?",
+    "cevap": "Kırık Hayatlar.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Kırık Hayatlar' romanında ailesi ile yasak aşkı arasında kalan, mesleği doktorluk olan başkahraman kimdir?",
+    "cevap": "Ömer Behiç.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Kırık Hayatlar' adlı yapıtında Dr. Ömer Behiç'in hayatının kırılmasına neden olan ilişkideki kadın karakter kimdir?",
+    "cevap": "Neyyir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Mazlume ve İhsan karakterleri üzerinden düşmüş bir kadının dramını ve toplumsal baskıları ele aldığı romanı hangisidir?",
+    "cevap": "Sefile.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in edebiyatımızda natüralist ögeler de barındıran 'Sefile' adlı romanında başından geçen kötü olaylar yüzünden hayatı kararan kadın karakter kimdir?",
+    "cevap": "Mazlume.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Sefile' romanında başkarakter Mazlume ile ilişkisi olan erkek karakter kimdir?",
+    "cevap": "İhsan.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Süleyman Nüzhet ve Server karakterlerinin yer aldığı, II. Abdülhamid döneminin son yıllarını ve toplumsal manzarayı işleyen son romanı hangisidir?",
+    "cevap": "Nesl-i Ahir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Nesl-i Ahir' (Son Nesil) adlı romanında dönemin aydın tipini ve hayal kırıklıklarını temsil eden başkahraman kimdir?",
+    "cevap": "Süleyman Nüzhet.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Nesl-i Ahir' adlı ünlü yapıtında Süleyman Nüzhet ile birlikte şahıs kadrosunda öne çıkan diğer karakter hangisidir?",
+    "cevap": "Server.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Aşk-ı Memnu', 'Mai ve Siyah', 'Nemide', 'Ferdi ve Şürekası', 'Bir Ölünün Defteri', 'Kırık Hayatlar', 'Sefile' ve 'Nesl-i Ahir' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Roman.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in hikaye türünde kaleme aldığı, sınavda karşına çıkabilecek 'Aşka Dair', 'Kadın Pençesi', 'Sepette Bulunmuş' ve 'İzmir Hikayeleri' dışındaki diğer önemli öykü kitabı hangisidir?",
+    "cevap": "Bir Yazın Tarihi.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in hikaye kitapları arasında yer alan ve yazarın gençlik yıllarını geçirdiği şehrin izlerini taşıyan eseri hangisidir?",
+    "cevap": "İzmir Hikayeleri.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Bir Yazın Tarihi', 'Aşka Dair', 'Kadın Pençesi', 'Sepette Bulunmuş' ve 'İzmir Hikayeleri' adlı yapıtlarının ortak edebi türü nedir?",
+    "cevap": "Hikaye.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in hikaye türünde kaleme aldığı ve sınav sorusu olarak karşına çıkabilecek 'Bir Yazın Tarihi', 'Aşka Dair', 'Kadın Pençesi', 'Sepette Bulunmuş' ve 'İzmir Hikayeleri' adlı yapıtlarının ortak edebi türü nedir?",
+    "cevap": "Hikâye.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in intihar eden oğlu Vedat'ın acısını, yaşadığı derin evlat acısını ve bu trajik olayı edebi bir dille anlattığı ünlü hatıra kitabı hangisidir?",
+    "cevap": "Bir Acı Hikaye.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in edebiyat dünyasındaki anılarını, çocukluk yıllarından Servetifünun topluluğunun oluşum sürecine kadar geniş bir çerçevede ele aldığı, edebiyat tarihimiz açısından da belge niteliği taşıyan ünlü anı kitabı hangisidir?",
+    "cevap": "Kırk Yıl.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in Sarayda mabeyin başkatibi olarak görev yaptığı döneme ait gözlemlerini, saray hayatını ve o dönemin siyasi-sosyal atmosferini anlattığı anı türündeki eseri hangisidir?",
+    "cevap": "Saray ve Ötesi.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Bir Acı Hikaye', 'Kırk Yıl' ve 'Saray ve Ötesi' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Hatıra (Anı).",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Roman ve hikayeleriyle ön planda olan Halit Ziya Uşaklıgil'in tiyatro türünde kaleme aldığı ve AYT Edebiyat sınavında soru olarak gelebilecek üç önemli yapıtı hangileridir?",
+    "cevap": "Fare, Füruzan, Kabus.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Fare', 'Füruzan' ve 'Kabus' adlı eserlerinin ortak edebi türü nedir?",
+    "cevap": "Tiyatro.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in edebiyat, sanat ve estetik üzerine görüşlerini, makalelerini bir araya getirdiği ünlü yapıtının adı nedir?",
+    "cevap": "Sanata Dair.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Sanata Dair' adlı yapıtının edebi türü nedir?",
+    "cevap": "Makale.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil tarafından yazılan ve Türk edebiyatında Batılı anlamdaki mensur şiir türünün ilk örneği kabul edilen ikonik eser hangisidir?",
+    "cevap": "Mezardan Sesler.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Halit Ziya Uşaklıgil'in 'Mezardan Sesler' adlı ünlü yapıtının edebi türü nedir?",
+    "cevap": "Mensur Şiir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi şairlerinden olan, şiirlerinde aşk ve kadın temalarını yoğun şekilde işlemesi nedeniyle edebiyatımızda 'Kadın şairi' olarak tanınan sanatçı kimdir?",
+    "cevap": "Celal Sahir Erozan.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Celal Sahir Erozan'ın AYT Edebiyat sınavında soru potansiyeli taşıyan iki önemli şiir kitabı hangisidir?",
+    "cevap": "Beyaz Gölgeler, Siyah Kitap.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi'nde 'güzellik için sanat' anlayışına bağlı kalarak lirik şiirler kaleme alan, 'Bağbozumu' ve 'Kıvılcımlı Kül' eserleriyle tanınan şair kimdir?",
+    "cevap": "Hüseyin Siret Özsever.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Hüseyin Siret Özsever'in 'Bağbozumu' ve 'Kıvılcımlı Kül' adlı yapıtlarının edebi türü nedir?",
+    "cevap": "Şiir.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Servetifünun Dönemi'nin gür sesli, vatanperver şairlerinden olan; 'Gizli Figanlar' ve 'Firak-ı Irak' adlı şiir kitaplarıyla bilinen sanatçı kimdir?",
+    "cevap": "Süleyman Nazif.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  },
+  {
+    "Soru": "Süleyman Nazif'in şiir ile düzyazıyı harmanlayarak kaleme aldığı, özellikle Malta sürgünü döneminin ve vatan hasretinin izlerini taşıyan, ÖSYM'nin de zaman zaman yokladığı iki ünlü eseri hangisidir?",
+    "cevap": "Batarya ile Ateş, Malta Geceleri.",
+    "unite": "Servetifünun Dönemi Edebiyatı",
+    "tema": "Servetifünun Dönemi Sanatçıları"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
